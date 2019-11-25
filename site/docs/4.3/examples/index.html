@@ -19,6 +19,8 @@ redirect_from: "/examples/"
         </a>
         <p class="text-muted">{{ example.description }}</p>
       </div>
+
+      {{ content }}
     {% if forloop.last %}</div>{% endif %}
   {% endfor %}
 {% endfor %}
