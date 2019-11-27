@@ -2,29 +2,40 @@
 layout: simple
 title: Design
 description: Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.
-permalink: /
-redirect_from: 
-  - /docs/4.3/design
-
+redirect_from: "/design/"
+<!-- redirect_from: 
+  - /docs/4.3/design -->
 ---
 
 <div class="p-5">
     <!-- Navbar -->
-    {% include design/navbar/navbar.html %}
+    <h3 id="heading-classes" class="text-center">Nav Bar</h3>
+    <div class="mb-5">
+        {% include design/navbar/navbar.html %}
+    </div>
     {% include design/navbar/navbar-mobile.html %}
 
     <!-- Sections -->
-    {% include design/section/section-with-sidebarmenu.html %}
+    <h3 id="heading-classes" class="text-center">Sections</h3>
+    <div class="mb-5">{% include design/section/section-with-sidebarmenu.html %}</div>
     {% include design/section/section-with-cards.html %}
 
     <!-- Covers -->
-    {% include design/cover/cover.html %}
-    {% include design/cover/cover-with-searchbar.html %}
+    <h3 id="heading-classes" class="text-center">Cover with scroll down button</h3>
+    <div class="mb-5">{% include design/cover/cover.html %}</div>
+    <h3 id="heading-classes" class="text-center">Cover with search bar</h3>
+    <div class="mb-5">{% include design/cover/cover-with-searchbar.html %}</div>
     {% include design/cover/cover-without-searchbar.html %}
     {% include design/cover/cover-darkbg-without-searchbar.html %}
+    {% include design/cover/cover-with-logo.html %}
 
     <!-- Cards -->
-    {% include design/cards/cards.html %}
+    <h3 id="heading-classes" class="text-center">Cards</h3>
+    <div class="volume_page p-5">
+        <div class="row justify-content-center">
+            {% include design/cards/cards.html %}
+        </div>
+    </div>
 
     <!-- Breadcrumb -->
     <h3 id="heading-classes" class="text-center">Breadcrumb</h3>
@@ -33,7 +44,10 @@ redirect_from:
     </div>
 
     <!-- Images -->
-    {% include design/images/img-with-text-overlay.html %}
+    <h3 id="heading-classes" class="text-center">Image Centered with text overlay</h3>
+    <div class="volume_page p-5">
+        {% include design/images/img-with-text-overlay.html %}
+    </div>
     {% include design/images/rounded-img.html %}
     {% include design/images/rounded-img-with-text-overlay.html %}
     {% include design/images/rounded-img-with-bottom-text.html %}
@@ -42,18 +56,61 @@ redirect_from:
     {% include design/images/img-with-bottom-and-text-overlay.html %}
     {% include design/images/img-with-centered-upper-left-and-bottom-text.html %}
     {% include design/images/img-with-lightbox.html %}
+    <h3 id="heading-classes" class="text-center">Image with Description</h3>
+    <div class="p-5 m-auto w-50"></div>
+        {% include design/images/img-title-description.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center">Image Tiles</h3>
+    <div class="p-5 m-auto w-50">
+        {% include design/images/img-tiles.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center">Image Masonry</h3>
+    <div class="p-5 m-auto w-50">
+        {% include design/images/img-masonry.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center">Image Full width with text overlay</h3>
+    <div class="p-5 m-auto w-60">
+        {% include design/images/img-full-width-with-text-overlay.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center">Image with bottom text overlay</h3>
+    <div class="p-5">
+        {% include design/images/img-with-bottom-text-overlay.html %}
+    </div>
+    
 
     <!-- Image Slider -->
-    {% include design/slider/img-slider-responsive.html %}
+    <h3 id="heading-classes" class="text-center">Image Slider (Owl Carousel/Responsive without Loop)</h3>
+    <div class="volume_page p-5">
+        {% include design/slider/img-slider-responsive.html %}
+    </div>
     {% include design/slider/img-slider-center-with-loop.html %}
     {% include design/slider/img-slider-with-lightbox.html %}
     {% include design/slider/img-slider-with-img-indicators.html %}
+    <h3 id="heading-classes" class="text-center">Image Slider with description (Portrait)</h3>
+    <div class="volume_page p-5">
+        {% include design/slider/img-slider-with-desc.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center">Image Slider with bottom text overlay</h3>
+    <div class="volume_page p-5">
+        {% include design/slider/img-slider-with-bottom-overlay.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center">Image Slider with bottom text overlay</h3>
+    <div class="volume_page p-5">
+        {% include design/slider/img-slider-with-img-indicators-text-overlay.html %}
+    </div>
+    
 
     <!-- Video -->
     {% include design/video/embedded.html %}
     {% include design/video/local-video.html %}
+
+     <!-- Modal -->
+     {% include design/modals/modals.html %}
+
+     <!-- Popover -->
+     <!-- {% include design/popover/popover.html %} -->
     
-    
+  </div>  
     <!-- Article -->
     <h3 class="text-center">Article Page</h3>
     
@@ -72,9 +129,29 @@ redirect_from:
         {% include design/article/paragraph-with-quotes.html %}
     </div>
 
-    <!-- Modal -->
-    {% include design/modals/modals.html %}
+    <!-- Menu -->
+    <h3 class="text-center">Sidebar Menu</h3>
+    <div class="mb-5">
+        <div class="volume_page bg-black">
+            <div class="row">
+                {% include design/menu/sidebar-menu.html %}
+            </div>
+        </div>
+    </div>
 
-    <!-- Popover -->
-    {% include design/popover/popover.html %}
-   
+    <!-- Search Bar -->
+    <h3 class="text-center">Search Bar</h3>
+    <div class="mb-5">
+        <div class="volume_page bg-black">
+            <div class="row">
+                {% include design/searchbar/searchbar.html %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <h3 class="text-center">Footer</h3>
+    {% include design/footer/footer.html %}
+    <br>
+    {% include design/footer/footer-2.html %}
+
