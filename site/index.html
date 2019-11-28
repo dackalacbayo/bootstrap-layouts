@@ -9,7 +9,7 @@ layout: home
         {% include design/navbar/navbar.html %}
     </div>
     {% include design/navbar/navbar-mobile.html %}
-
+    
     <!-- Sections -->
     <h3 id="heading-classes" class="text-center">Sections</h3>
     <div class="mb-5">{% include design/section/section-with-sidebarmenu.html %}</div>
@@ -62,15 +62,16 @@ layout: home
     <h3 id="heading-classes" class="text-center">Image Masonry</h3>
     <div class="p-5 m-auto w-50">
         {% include design/images/img-masonry.html %}
+        {% include design/images/img-masonry-3columns.html %}
     </div>
     <h3 id="heading-classes" class="text-center">Image Full width with text overlay</h3>
     <div class="p-5 m-auto w-60">
         {% include design/images/img-full-width-with-text-overlay.html %}
     </div>
-    <h3 id="heading-classes" class="text-center">Image with bottom text overlay</h3>
+    <!-- <h3 id="heading-classes" class="text-center">Image with bottom text overlay</h3>
     <div class="p-5">
         {% include design/images/img-with-bottom-text-overlay.html %}
-    </div>
+    </div> -->
     
 
     <!-- Image Slider -->
@@ -85,10 +86,10 @@ layout: home
     <div class="volume_page p-5">
         {% include design/slider/img-slider-with-desc.html %}
     </div>
-    <h3 id="heading-classes" class="text-center">Image Slider with bottom text overlay</h3>
+    <!-- <h3 id="heading-classes" class="text-center">Image Slider with bottom text overlay</h3>
     <div class="volume_page p-5">
         {% include design/slider/img-slider-with-bottom-overlay.html %}
-    </div>
+    </div> -->
     <h3 id="heading-classes" class="text-center">Image Slider with bottom text overlay</h3>
     <div class="volume_page p-5">
         {% include design/slider/img-slider-with-img-indicators-text-overlay.html %}
@@ -96,9 +97,14 @@ layout: home
     
 
     <!-- Video -->
-    {% include design/video/embedded.html %}
-    {% include design/video/local-video.html %}
-
+    <div class="p-5">
+      <div class="w-50 m-auto">
+          {% include design/video/embedded.html %}
+      </div>
+      
+      {% include design/video/local-video.html %}
+    </div>
+    
      <!-- Modal -->
      {% include design/modals/modals.html %}
 
@@ -109,19 +115,33 @@ layout: home
     <!-- Article -->
     <h3 class="text-center">Article Page</h3>
     
-    <div class="article_page">
-        <h4 class="text-center">Paragraph</h4>
-        {% include design/article/paragraph.html %}
-        <h4 class="text-center">Paragraph with Photo</h4>
-        {% include design/article/paragraph-with-photo.html %}
-        <h4 class="text-center">Paragraph with Video</h4>
-        {% include design/article/paragraph-with-video.html %}
-        <h4 class="text-center">Bulleted Links</h4>
-        {% include design/article/bulleted-links.html %}
-        <h4 class="text-center">Bulleted Text and Links</h4>
-        {% include design/article/bulleted-text-and-links.html %}
-        <h4 class="text-center">Paragraph with Quotes</h4>
-        {% include design/article/paragraph-with-quotes.html %}
+    <div class="article_page article-container p-5">
+        <div class="container">
+            <div class="mt-4 mb-4">
+                <h4 class="text-center">Paragraph</h4>
+                {% include design/article/paragraph.html %}
+            </div>
+            <div class="mt-4 mb-4">
+                <h4 class="text-center">Paragraph with Photo</h4>
+                {% include design/article/paragraph-with-photo.html %}
+            </div>
+            <div class="mt-4 mb-4">
+                <h4 class="text-center">Paragraph with Video</h4>
+                {% include design/article/paragraph-with-video.html %}
+            </div>
+            <div class="mt-4 mb-4">
+                <h4 class="text-center">Paragraph with Quotes</h4>
+                {% include design/article/paragraph-with-quotes.html %}
+            </div>
+            <div class="mt-4 mb-4">
+                <h4 class="text-center">Bulleted Links</h4>
+                {% include design/article/bulleted-links.html %}
+            </div>
+            <div class="mt-4 mb-4">
+                <h4 class="text-center">Bulleted Text and Links</h4>
+                {% include design/article/bulleted-text-and-links.html %}
+            </div>
+        </div>
     </div>
 
     <!-- Menu -->

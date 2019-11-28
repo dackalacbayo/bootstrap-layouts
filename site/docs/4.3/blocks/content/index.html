@@ -1,0 +1,28 @@
+---
+layout: simple
+title: Page Types
+description: ..
+redirect_from: "/blocks/content"
+---
+<div class="m-4">
+    <h6 id="block-1" class="block-number">Block 1</h6>
+    <section class="section pb-5 pt-5">
+        <div class="container">
+            <div class="p-3">
+                {% include blocks/content/content-block-1-single-right-image-left-text.html %}
+            </div>
+        </div>
+    </section>
+    <h6 id="block-2" class="block-number">Block 2</h6>
+    <section class="section bg-dark text-white">
+        <div class="container-wide">
+            {% include blocks/content/content-block-2-single-left-image-right-text-dark-bg.html %}
+        </div>
+    </section>
+    <h6 id="block-3" class="block-number">Block 3</h6>
+    <section class="section pb-5 pt-5">
+        <div class="container">
+            {% include blocks/content/content-block-3-3-col-text-only.html %}
+        </div>
+    </section>
+</div>

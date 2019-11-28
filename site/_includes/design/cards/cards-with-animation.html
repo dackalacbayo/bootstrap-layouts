@@ -1,0 +1,109 @@
+<div class="container">
+        <h6 class="divider mt-8">Animation</h6>
+
+        <p>You can display the hover-card element with a nice animation. For this purpose, add <code>data-animation=""</code> to the <em>.card-hover</em> element with one of the available animation names. Available animations are <code>fade</code> | <code>zoom</code> | <code>slide-up</code> | <code>slide-down</code> | <code>slide-left</code> | <code>slide-right</code>.</p>
+        <br>
+    
+    
+        <div class="row gap-y">
+    
+          <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Fade</h5>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title.</p>
+              </div>
+    
+              <div class="card-hover bg-dark text-white" data-animation="fade">
+                <div class="card-body align-self-center">
+                  <h5>The overlay block</h5>
+                  <p class="mb-0">You can modify this content which is inside the <code>.card-hover</code> element as you wish. Add overlay, change text color, change background color and etc.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+    
+          <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Zoom</h5>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title.</p>
+              </div>
+    
+              <div class="card-hover bg-primary text-white" data-animation="zoom">
+                <div class="card-body align-self-center">
+                  <h5>The overlay block</h5>
+                  <p class="mb-0">You can modify this content which is inside the <code>.card-hover</code> element as you wish. Add overlay, change text color, change background color and etc.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+    
+          <div class="col-md-6 col-lg-4">
+            <div class="card overflow-hidden">
+              <div class="card-body">
+                <h5 class="card-title">Slide up</h5>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title.</p>
+              </div>
+    
+              <div class="card-hover bg-gradient-success text-white" data-animation="slide-up">
+                <div class="card-body align-self-center">
+                  <h5>The overlay block</h5>
+                  <p class="mb-0">You can modify this content which is inside the <code>.card-hover</code> element as you wish. Add overlay, change text color, change background color and etc.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+    
+          <div class="col-md-6 col-lg-4">
+            <div class="card overflow-hidden">
+              <div class="card-body">
+                <h5 class="card-title">Slide down</h5>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title.</p>
+              </div>
+    
+              <div class="card-hover text-white bg-img" data-animation="slide-down" style="background-image: url('{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/thumb/5.jpg');" data-overlay="6">
+                <div class="card-body align-self-center">
+                  <h5>The overlay block</h5>
+                  <p class="mb-0">You can modify this content which is inside the <code>.card-hover</code> element as you wish. Add overlay, change text color, change background color and etc.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+    
+          <div class="col-md-6 col-lg-4">
+            <div class="card overflow-hidden">
+              <div class="card-body">
+                <h5 class="card-title">Slide left</h5>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title.</p>
+              </div>
+    
+              <a class="card-hover bg-img" href="#" data-animation="slide-left" style="background-image: url('{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/thumb/5.jpg');">
+              </a>
+            </div>
+          </div>
+    
+    
+          <div class="col-md-6 col-lg-4">
+            <div class="card overflow-hidden">
+              <div class="card-body">
+                <h5 class="card-title">Slide right</h5>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title.</p>
+              </div>
+    
+              <div class="card-hover text-white" data-animation="slide-right">
+                <div class="overlay bg-primary opacity-70"></div>
+                <div class="card-body align-self-center">
+                  <h5>The overlay block</h5>
+                  <p class="mb-0">You can modify this content which is inside the <code>.card-hover</code> element as you wish.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+    </div>

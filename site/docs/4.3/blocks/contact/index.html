@@ -1,0 +1,30 @@
+---
+layout: simple
+title: Page Types
+description: ..
+redirect_from: "/blocks/contact"
+---
+<div class="m-4">
+    <h6 id="block-1" class="block-number">Block 1</h6>
+    <section class="section pb-5 pt-5">
+        <div class="container">
+            <div class="p-3">
+                {% include blocks/contact/contact-form-1-center.html %}
+            </div>
+        </div>
+    </section>
+    <h6 id="block-2" class="block-number">Block 2</h6>
+    <section class="section pb-5 pt-5">
+        <div class="container">
+            {% include blocks/contact/contact-form-2-full-width-with-right-text.html %}
+        </div>
+    </section>
+    <h6 id="block-3" class="block-number">Block 3</h6>
+    <section class="section bg-img pb-5 pt-5" style="background-image: url('{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/bg/10.jpg')" data-overlay="8">
+        <div class="container">
+            {% include blocks/contact/contact-form-3-full-width-with-right-text-dark-bg.html %}
+        </div>
+    </section>
+</div>
+
+
