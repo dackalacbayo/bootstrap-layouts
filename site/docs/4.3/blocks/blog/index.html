@@ -5,7 +5,9 @@ description: ..
 redirect_from: "/blocks/blogs"
 ---
 <div class="mt-4">
-    <h6 id="block-1" class="block-number">Block 1</h6>
+    <!--3 tiles-->
+    
+    <h6 id="block-1" class="block-number">Block A: 3 Tiles</h6>
     <section class="section pb-5 pt-5">
         <div class="container">
             <div class="p-3">
@@ -14,7 +16,33 @@ redirect_from: "/blocks/blogs"
             </div>
         </div>
     </section>
-    <h6 id="block-2" class="block-number">Block 2</h6>
+
+    <!--4 tiles-->
+    <h6 id="block-1" class="block-number">Block A: 4 Tiles</h6>
+    <section class="section pb-5 pt-5">
+        <div class="container">
+            <div class="p-3">
+                <h2 class="text-center mb-8">Recent Blog Posts</h2>
+                {% include blocks/blog/blog-block-1-tiles-4-col-with-image.html %}
+            </div>
+        </div>
+    </section>
+
+
+    <!--5 tiles-->
+    <h6 id="block-1" class="block-number">Block A: 5 Tiles</h6>
+    <section class="section pb-5 pt-5">
+        <div class="container">
+            <div class="p-3">
+                <h2 class="text-center mb-8">Recent Blog Posts</h2>
+                {% include blocks/blog/blog-block-1-tiles-5-col-with-image.html %}
+            </div>
+        </div>
+    </section>
+    
+
+    <!--3 tiles-->
+    <h6 id="block-2" class="block-number">Block B: 3 Tiles</h6>
     <section class="section bg-dark text-white pb-5 pt-5">
         <div class="container">
             <div class="text-center mb-8">
@@ -24,10 +52,39 @@ redirect_from: "/blocks/blogs"
             {% include blocks/blog/blog-block-2-tiles-3-col-text-only-dark.html %}
         </div>
     </section>
-    <h6 id="block-3" class="block-number">Block 3</h6>
+
+    <!--4 tiles-->
+    <h6 id="block-2" class="block-number">Block B: 4 Tiles</h6>
+    <section class="section bg-dark text-white pb-5 pt-5">
+        <div class="container">
+            <div class="text-center mb-8">
+            <h2>Popular posts from our blog</h2>
+            <p>More than 80 articles are waiting for you</p>
+            </div>
+            {% include blocks/blog/blog-block-2-tiles-4-col-text-only-dark.html %}
+        </div>
+    </section>
+
+    <!--5 tiles-->
+    <h6 id="block-2" class="block-number">Block B: 5 Tiles</h6>
+    <section class="section bg-dark text-white pb-5 pt-5">
+        <div class="container">
+            <div class="text-center mb-8">
+            <h2>Popular posts from our blog</h2>
+            <p>More than 80 articles are waiting for you</p>
+            </div>
+            {% include blocks/blog/blog-block-2-tiles-5-col-text-only-dark.html %}
+        </div>
+    </section>
+
+
+
+    <!--3 tiles-->
+    <h6 id="block-3" class="block-number">Block C: 3 Tiles</h6>
     <section class="section pb-5 pt-5">
             <div class="container">
                 {% include blocks/blog/blog-block-3-tiles-1-only-with-image.html %}
             </div>
     </section>
+
 </div>
