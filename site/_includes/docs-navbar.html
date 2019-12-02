@@ -46,13 +46,31 @@
           </ul>
       </li>
       <li class="nav-item dropdown">
-          <a href="#" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Section Blocks</span> <span class="caret"></span></a>
+          <a href="#" class="nav-link dropdown-toggle nav-link {% if page.title == 'Blocks' %}active{% endif %}" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Section Blocks</span> <span class="caret"></span></a>
           <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/blog">Blog</a></li>
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/contact">Contact</a></li>
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/content">Content</a></li>
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/cover">Cover</a></li>
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/cta">Call To Action</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/download">Download</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/explore">Explore</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/feature-textual">Feature Textual</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/feature">Feature</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/footer">Footer</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/gallery">Gallery</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/header">Header</a></li>
+              <!-- <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/offcanvas">Offcanvas</a></li> -->
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/partner">Partner</a></li>
+              <!-- <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/popup">Popup</a></li> -->
+              <!-- <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/portfolio-block">Portfolio Block</a></li> -->
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/pricing">Pricing</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/service">Service</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/signup">Signup</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/subscribe">Subscribe</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/team">Team</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/testimonial">Testimonial</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/video">Video</a></li>
               <!-- <li><a class="dropdown-item" href="#">Full-screen Media</a></li>
               <li><a class="dropdown-item" href="#">Page Cover</a></li>
               <li><a class="dropdown-item" href="#">Page Chapter Section</a></li>
