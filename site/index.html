@@ -2,7 +2,180 @@
 layout: home
 ---
 
-<main class="bd-masthead" id="content" role="main">
+<div class="p-5">
+    <!-- Navbar -->
+    <h3 id="heading-classes" class="text-center">Nav Bar</h3>
+    <div class="mb-5">
+        {% include design/navbar/navbar.html %}
+    </div>
+    {% include design/navbar/navbar-mobile.html %}
+    
+    <!-- Sections -->
+    <h3 id="heading-classes" class="text-center">Sections</h3>
+    <div class="mb-5">{% include design/section/section-with-sidebarmenu.html %}</div>
+    {% include design/section/section-with-cards.html %}
+
+    <!-- Covers -->
+    <h3 id="heading-classes" class="text-center">Cover with scroll down button</h3>
+    <div class="mb-5">{% include design/cover/cover.html %}</div>
+    <h3 id="heading-classes" class="text-center">Cover with search bar</h3>
+    <div class="mb-5">{% include design/cover/cover-with-searchbar.html %}</div>
+    {% include design/cover/cover-without-searchbar.html %}
+    {% include design/cover/cover-darkbg-without-searchbar.html %}
+    {% include design/cover/cover-with-logo.html %}
+
+    <!-- Cards -->
+    <h3 id="heading-classes" class="text-center">Cards</h3>
+    <div class="volume_page p-5">
+        <div class="row justify-content-center">
+            {% include design/cards/cards.html %}
+        </div>
+    </div>
+
+    <!-- Breadcrumb -->
+    <h3 id="heading-classes" class="text-center">Breadcrumb</h3>
+    <div class="volume_page p-5">
+        {% include design/breadcrumb/breadcrumb.html %}
+    </div>
+
+    <!-- Images -->
+    <h3 id="heading-classes" class="text-center">Image Centered with text overlay</h3>
+    <div class="volume_page p-5">
+        {% include design/images/img-with-text-overlay.html %}
+    </div>
+    {% include design/images/rounded-img.html %}
+    {% include design/images/rounded-img-with-text-overlay.html %}
+    {% include design/images/rounded-img-with-bottom-text.html %}
+    {% include design/images/img-with-text-upper-left.html %}
+    {% include design/images/img-with-bottom-text.html %}
+    {% include design/images/img-with-bottom-and-text-overlay.html %}
+    {% include design/images/img-with-centered-upper-left-and-bottom-text.html %}
+    {% include design/images/img-with-lightbox.html %}
+    <h3 id="heading-classes" class="text-center">Image with Description</h3>
+    <div class="p-5 m-auto w-50"></div>
+        {% include design/images/img-title-description.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center">Image Tiles</h3>
+    <div class="p-5 m-auto w-50">
+        {% include design/images/img-tiles.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center">Image Masonry</h3>
+    <div class="p-5 m-auto w-50">
+        {% include design/images/img-masonry.html %}
+        {% include design/images/img-masonry-3columns.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center">Image Full width with text overlay</h3>
+    <div class="p-5 m-auto w-60">
+        {% include design/images/img-full-width-with-text-overlay.html %}
+    </div>
+    <!-- <h3 id="heading-classes" class="text-center">Image with bottom text overlay</h3>
+    <div class="p-5">
+        {% include design/images/img-with-bottom-text-overlay.html %}
+    </div> -->
+    
+
+    <!-- Image Slider -->
+    <h3 id="heading-classes" class="text-center">Image Slider (Owl Carousel/Responsive without Loop)</h3>
+    <div class="volume_page p-5">
+        {% include design/slider/img-slider-responsive.html %}
+    </div>
+    {% include design/slider/img-slider-center-with-loop.html %}
+    {% include design/slider/img-slider-with-lightbox.html %}
+    {% include design/slider/img-slider-with-img-indicators.html %}
+    <h3 id="heading-classes" class="text-center">Image Slider with description (Portrait)</h3>
+    <div class="volume_page p-5">
+        {% include design/slider/img-slider-with-desc.html %}
+    </div>
+    <!-- <h3 id="heading-classes" class="text-center">Image Slider with bottom text overlay</h3>
+    <div class="volume_page p-5">
+        {% include design/slider/img-slider-with-bottom-overlay.html %}
+    </div> -->
+    <h3 id="heading-classes" class="text-center">Image Slider with bottom text overlay</h3>
+    <div class="volume_page p-5">
+        {% include design/slider/img-slider-with-img-indicators-text-overlay.html %}
+    </div>
+    
+
+    <!-- Video -->
+    <div class="p-5">
+      <h3 id="heading-classes" class="text-center">Embedded Video</h3>
+      <div class="w-50 m-auto">
+          {% include design/video/embedded.html %}
+      </div>
+      <h3 id="heading-classes" class="text-center">Local Video</h3>
+      <div class="w-50 m-auto">
+          {% include design/video/local-video.html %}
+      </div>
+    </div>
+    
+     <!-- Modal -->
+     {% include design/modals/modals.html %}
+
+     <!-- Popover -->
+     <!-- {% include design/popover/popover.html %} -->
+    
+  </div>  
+    <!-- Article -->
+    <h3 class="text-center">Article Page</h3>
+    
+    <div class="article_page article-container p-5">
+        <div class="container">
+            <div class="mt-4 mb-4">
+                <h4 class="text-center">Paragraph</h4>
+                {% include design/article/paragraph.html %}
+            </div>
+            <div class="mt-4 mb-4">
+                <h4 class="text-center">Paragraph with Photo</h4>
+                {% include design/article/paragraph-with-photo.html %}
+            </div>
+            <div class="mt-4 mb-4">
+                <h4 class="text-center">Paragraph with Video</h4>
+                {% include design/article/paragraph-with-video.html %}
+            </div>
+            <div class="mt-4 mb-4">
+                <h4 class="text-center">Paragraph with Quotes</h4>
+                {% include design/article/paragraph-with-quotes.html %}
+            </div>
+            <div class="mt-4 mb-4">
+                <h4 class="text-center">Bulleted Links</h4>
+                {% include design/article/bulleted-links.html %}
+            </div>
+            <div class="mt-4 mb-4">
+                <h4 class="text-center">Bulleted Text and Links</h4>
+                {% include design/article/bulleted-text-and-links.html %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu -->
+    <h3 class="text-center">Sidebar Menu</h3>
+    <div class="mb-5">
+        <div class="volume_page bg-black">
+            <div class="row">
+                {% include design/menu/sidebar-menu.html %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Search Bar -->
+    <h3 class="text-center">Search Bar</h3>
+    <div class="mb-5">
+        <div class="volume_page bg-black">
+            <div class="row">
+                {% include design/searchbar/searchbar.html %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <h3 class="text-center">Footer</h3>
+    {% include design/footer/footer.html %}
+    <br>
+    {% include design/footer/footer-2.html %}
+
+
+
+<!-- <main class="bd-masthead" id="content" role="main">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-6 mx-auto col-md-6 order-md-2">
@@ -35,7 +208,7 @@ layout: home
 
 <div class="masthead-followup row m-0 border border-white">
   <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
-    <!-- Icon by Bytesize https://github.com/danklammer/bytesize-icons -->
+
     {% include icons/import.svg width="32" height="32" class="text-primary mb-2" %}
     <h3>Installation</h3>
     <p>Include Bootstrap’s source Sass and JavaScript files via npm, Composer or Meteor. Package managed installs don’t include documentation, but do include our build system and readme.</p>
@@ -53,7 +226,7 @@ gem install bootstrap -v {{ site.current_ruby_version }}
   </div>
 
   <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
-    <!-- Icon by Bytesize https://github.com/danklammer/bytesize-icons -->
+ 
     {% include icons/download.svg width="32" height="32" class="text-primary mb-2" %}
     <h3>BootstrapCDN</h3>
     <p>When you only need to include Bootstrap’s compiled CSS or JS, you can use <a href="https://www.bootstrapcdn.com/">BootstrapCDN</a>.</p>
@@ -74,7 +247,7 @@ gem install bootstrap -v {{ site.current_ruby_version }}
   </div>
 
   <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
-    <!-- Icon by Bytesize https://github.com/danklammer/bytesize-icons -->
+
     {% include icons/lightning.svg width="32" height="32" class="text-primary mb-2" %}
     <h3>Official Themes</h3>
     <p>
@@ -86,4 +259,4 @@ gem install bootstrap -v {{ site.current_ruby_version }}
     <hr class="half-rule">
     <a href="{{ site.themes }}/" class="btn btn-outline-primary">Browse themes</a>
   </div>
-</div>
+</div> 

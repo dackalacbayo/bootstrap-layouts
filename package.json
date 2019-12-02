@@ -97,6 +97,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "bs-custom-file-input": "^1.3.2",
     "lightbox2": "^2.11.1",
     "owl.carousel": "^2.3.4",
     "slick-carousel": "^1.8.1"

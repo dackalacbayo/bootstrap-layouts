@@ -1,0 +1,38 @@
+---
+layout: simple
+title: Page Types
+description: ..
+redirect_from: "/page_types/"
+---
+
+    {% include design/navbar/navbar.html %}
+    {% include design/cover/cover.html %}
+    <div class="volume_page bg-black" id="next-page">
+        <div class="row">
+           
+                {% include design/menu/sidebar-menu.html %}
+  
+            <div class="col-12 col-md-9 " data-spy="scroll" data-target="#spy">
+            <!-- <div class="col-12 col-md-9 scrollspy-examples" data-spy="scroll" data-target="#spy"> -->
+                <div class="mb-5" id="volumes">
+                    <div class="section_title_container">
+                            <p class="section_title_text_onblack">Volumes</p>
+                        </div>
+                        {% include design/images/img-tiles.html %}
+                </div>
+                <div class="mb-5" id="featured">
+                    <div class="section_title_container">
+                        <p class="section_title_text_onblack">Featured</p>
+                    </div>
+                    {% include design/images/img-masonry.html %}
+                </div> 
+                <div class="mb-5" id="onthisday">
+                    <div class="section_title_container">
+                        <p class="section_title_text_onblack">On this Day</p>
+                    </div>
+                    {% include design/cards/cards.html %}
+                </div> 
+            </div>
+        </div>
+    </div>
+    {% include design/footer/footer.html %}
