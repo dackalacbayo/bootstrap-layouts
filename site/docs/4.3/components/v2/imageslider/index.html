@@ -4,25 +4,28 @@ title: Components
 description: ..
 redirect_from: "/components/v2/imageslider"
 ---
+<div class="volume_page p-5">
 
+    <div class="divider mt-8"><code>Image Slider with Bottom Text</div>
+    {% include components/slider/img-slider-with-bottom-text.html %}
+
+    <div class="divider mt-8"><code>Image Slider (Owl Carousel/Responsive without Loop)</code></div>
+    {% include components/slider/img-slider-responsive.html %}
+    
+    <div class="divider mt-8"><code>Image Slider (Owl Carousel/Center with loop)</code></div>
+    {% include components/slider/img-slider-center-with-loop.html %}
+
+    <div class="divider mt-8"><code>Image Slider (Owl Carousel with Lightbox)</code></div>
+    {% include components/slider/img-slider-with-lightbox.html %}
+
+    <div class="divider mt-8"><code>Image Slider with image indicators</code></div>
+    {% include components/slider/img-slider-with-img-indicators.html %}
+
+    <div class="divider mt-8"><code>Image Slider with description (Portrait)</code></div>
+    {% include components/slider/img-slider-with-desc.html %}
+
+    <div class="divider mt-8"><code>Image Slider with bottom text overlay</code></div>
+    {% include components/slider/img-slider-with-img-indicators-text-overlay.html %}
+
+</div>
  
-    <!-- Image Slider -->
-    <h3 id="heading-classes" class="text-center">Image Slider (Owl Carousel/Responsive without Loop)</h3>
-    <div class="volume_page p-5">
-        {% include design/slider/img-slider-responsive.html %}
-    </div>
-    {% include design/slider/img-slider-center-with-loop.html %}
-    {% include design/slider/img-slider-with-lightbox.html %}
-    {% include design/slider/img-slider-with-img-indicators.html %}
-    <h3 id="heading-classes" class="text-center">Image Slider with description (Portrait)</h3>
-    <div class="volume_page p-5">
-        {% include design/slider/img-slider-with-desc.html %}
-    </div>
-    <!-- <h3 id="heading-classes" class="text-center">Image Slider with bottom text overlay</h3>
-    <div class="volume_page p-5">
-        {% include design/slider/img-slider-with-bottom-overlay.html %}
-    </div> -->
-    <h3 id="heading-classes" class="text-center">Image Slider with bottom text overlay</h3>
-    <div class="volume_page p-5">
-        {% include design/slider/img-slider-with-img-indicators-text-overlay.html %}
-    </div>

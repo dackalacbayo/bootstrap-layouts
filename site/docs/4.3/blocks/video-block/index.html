@@ -2,24 +2,16 @@
 layout: simple
 title: Page Types
 description: ..
-redirect_from: "/blocks/cta"
+redirect_from: "/blocks/video-block"
 ---
 <div class="m-4">
     <h6 id="block-1" class="block-number">Block 1</h6>
-    <section class="section py-7" style="background-color: #8ea6e6">
-        <div class="container">
-            <div class="p-3">
-                {% include blocks/cta/call-to-action-1-narrow-text-only.html %}
-            </div>
-        </div>
-    </section>
+     {% include blocks/video-block/video-block-1-2-col-left-text-on-solid-color-bg-and-right-image-with-button.html %}
+
     <h6 id="block-2" class="block-number">Block 2</h6>
-    <section class="section">
-        <div class="container">
-            {% include blocks/cta/call-to-action-2-left-image-text-right.html %}
-        </div>
-    </section>
+    {% include blocks/video-block/video-block-2-2-col-left-text-with-button-and-right-image-light.html %}
+    
     <h6 id="block-3" class="block-number">Block 3</h6>
-     {% include blocks/cta/call-to-action-3-with-bg-image.html %}
+     {% include blocks/video-block/video-block-3-full-width-video-left-text-right-play-button.html %}
       
 </div>

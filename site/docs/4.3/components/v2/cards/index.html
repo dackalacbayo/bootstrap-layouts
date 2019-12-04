@@ -2,14 +2,82 @@
 layout: simple
 title: Components
 description: ..
-redirect_from: "/components/v2/"
+redirect_from: "/components/v2/cards"
 ---
 
 <div class="">
-        <h6 id="block-1" class="block-number">Card 1</h6>
-        <!-- {% include design/cards/cards.html %} -->
-        <!-- {% include design/cards/basic.html %}
-        {% include design/cards/cards-with-animation.html %}
-        {% include design/cards/cards-using-images.html %} -->
+
+        <section id="basic" class="section bg-gray p-3 bb-1">
+                <div class="container mt-5 mb-5">
+                        <header class="section-header">
+                        <h2>Basic Styling</h2>
+                        <hr>
+                        <p class="lead">Cards include various options for customizing their backgrounds, borders, and color.</p>
+                        </header>
+
+
+                        <div class="row gap-y justify-content-center">
+                                <div class="col-md-4 mb-3">
+                                        {% include components/cards/card-1-plain-white-text-only.html %}
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                        {% include components/cards/card-2-plain-black-text-only.html %}
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+        <section id="image" class="section bg-gray p-3">
+                <div class="container mt-5 mb-5">
+                        <header class="section-header">
+                        <h2>Using Images</h2>
+                        <hr>
+                        <p class="lead">Cards include a few options for working with images. Choose from appending image caps at either end of a card or overlaying images with card content.</p>
+                        </header>
+        
+                        <div class="row gap-y">
+                                <div class="col-12 col-lg-4 mb-3">
+                                        {% include components/cards/card-3-with-image-at-top.html %}
+                                </div>
+                                <div class="col-12 col-lg-4 mb-3">
+                                        {% include components/cards/card-4-with-image-at-top-and-labels-top-left.html %}
+                                </div>
+                                <div class="col-12 col-lg-4 mb-3">
+                                        {% include components/cards/card-5-with-image-at-bottom.html %}
+                                </div>
+                                
+                        </div>
+                        <div class="row gap-y justify-content-center">
+                                <div class="col-12 col-lg-4 mb-3">
+                                        {% include components/cards/card-6-with-bg-image-text-overlay.html %}
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+        <section class="section p-3">
+                <div class="container mt-5 mb-5">
+                        <header class="section-header">
+                        <h2>Overlay & Scrim</h2>
+                        <hr>
+                        <p class="lead">Some sample of using background images in a card with different opacity of overlays and scrims. Please read the <a href="overlay.html">full documentation</a> of overlays.</p>
+                        </header>
+        
+        
+                        <div class="row gap-y">
+                                <div class="col-12 col-lg-4 mb-3">
+                                        {% include components/cards/card-7-with-bg-image-bottom-gradient.html %}
+                                </div>
+                                <div class="col-12 col-lg-4 mb-3">
+                                        {% include components/cards/card-8-with-bg-image-full-color-overlay-top-left-text.html %}
+                                </div>
+                                <div class="col-12 col-lg-4 mb-3">
+                                        {% include components/cards/card-9-with-bg-image-top-gradient-center-text-and-button.html %}
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+
 </div>
     
