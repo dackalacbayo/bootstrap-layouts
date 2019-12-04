@@ -5,38 +5,81 @@ description: ..
 redirect_from: "/components/v2/image"
 ---
 
+<section class="section pt-4">
+    <div class="mt-5 mb-5">
+        <header class="section-header">
+            <h2>Image Shapes</h2>
+            <hr>
+            <p class="lead">Display your images in different type of shapes to carry a better meaning.</p>
+        </header>
 
-<!-- Images -->
-<h3 id="heading-classes" class="text-center">Image Centered with text overlay</h3>
-<div class="volume_page p-5">
-    {% include design/images/img-with-text-overlay.html %}
-</div>
-{% include design/images/rounded-img.html %}
-{% include design/images/rounded-img-with-text-overlay.html %}
-{% include design/images/rounded-img-with-bottom-text.html %}
-{% include design/images/img-with-text-upper-left.html %}
-{% include design/images/img-with-bottom-text.html %}
-{% include design/images/img-with-bottom-and-text-overlay.html %}
-{% include design/images/img-with-centered-upper-left-and-bottom-text.html %}
-{% include design/images/img-with-lightbox.html %}
-<h3 id="heading-classes" class="text-center">Image with Description</h3>
-<div class="p-5 m-auto w-50"></div>
-    {% include design/images/img-title-description.html %}
-</div>
-<h3 id="heading-classes" class="text-center">Image Tiles</h3>
-<div class="p-5 m-auto w-50">
-    {% include design/images/img-tiles.html %}
-</div>
-<h3 id="heading-classes" class="text-center">Image Masonry</h3>
-<div class="p-5 m-auto w-50">
-    {% include design/images/img-masonry.html %}
-    {% include design/images/img-masonry-3columns.html %}
-</div>
-<h3 id="heading-classes" class="text-center">Image Full width with text overlay</h3>
-<div class="p-5 m-auto w-60">
-    {% include design/images/img-full-width-with-text-overlay.html %}
-</div>
-<!-- <h3 id="heading-classes" class="text-center">Image with bottom text overlay</h3>
-<div class="p-5">
-    {% include design/images/img-with-bottom-text-overlay.html %}
-</div> -->
+        <div class="row text-center">
+            <div class="col-md-4">
+                <p><code>.rounded</code></p>
+                {% include components/images/image-1-rounded.html %}
+            </div>
+            <div class="col-md-4">
+                <p><code>.rounded-circle</code></p>
+                {% include components/images/image-2-rounded-circle.html %}
+            </div>
+            <div class="col-md-4">
+                <p><code>.img-thumbnail</code></p>
+                {% include components/images/image-3-thumbnail.html %}
+            </div>
+        </div>
+            
+
+    <!-- Images -->
+ 
+        <div class="divider mt-8"><code>Image Centered with text overlay</code></div>
+        {% include components/images/img-with-text-overlay.html %}
+
+        <div class="divider mt-8"><code>Rounded Image</code></div>
+        {% include components/images/rounded-img.html %}
+
+        <div class="divider mt-8"><code>Rounded Image Centered with text overlay</code></div>
+        {% include components/images/rounded-img-with-text-overlay.html %}
+
+        <div class="divider mt-8"><code>Rounded Image with bottom text</code></div>
+        {% include components/images/rounded-img-with-bottom-text.html %}
+
+        <div class="divider mt-8"><code>Image with text overlay on upper left corner</code></div>
+        {% include components/images/img-with-text-upper-left.html %}
+
+        <div class="divider mt-8"><code>Image with bottom text</code></div>
+        {% include components/images/img-with-bottom-text.html %}
+
+        <div class="divider mt-8"><code>Image with text overlay and bottom text</code></div>
+        {% include components/images/img-with-bottom-and-text-overlay.html %}
+
+        <div class="divider mt-8"><code>Image with centered, upper left and bottom text overlay</code></div>
+        {% include components/images/img-with-centered-upper-left-and-bottom-text.html %}
+
+        <div class="divider mt-8"><code>Image with lightbox</code></div>
+        {% include components/images/img-with-lightbox.html %}
+
+        <div class="divider mt-8"><code>Image with Description</code></div>
+        {% include components/images/img-title-description.html %}
+
+        <div class="divider mt-8"><code>Image Tiles</code></div>
+        <div class="m-auto w-50">
+            {% include components/images/img-tiles.html %}
+        </div>
+
+        <div class="divider mt-8"><code>Image Masonry 2 Columns</code></div>
+        <div class="m-auto w-50">
+            {% include components/images/img-masonry.html %}
+        </div>
+
+        <div class="divider mt-8"><code>Image Masonry 3 Columns</code></div>
+        <div class="m-auto w-50">
+            {% include components/images/img-masonry-3columns.html %}
+        </div>
+
+        <div class="divider mt-8"><code>Image Full width with text overlay</code></div>
+        <div class="m-auto w-50">
+            {% include components/images/img-full-width-with-text-overlay.html %}
+        </div>
+        
+
+</section>
