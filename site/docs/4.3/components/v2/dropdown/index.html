@@ -1,0 +1,57 @@
+---
+layout: simple
+title: Components
+description: ..
+redirect_from: "/components/v2/dropdown"
+---
+
+
+<section class="section bg-gray p-4">
+        <div class="container mt-5 mb-5">
+          <header class="section-header">
+            <h2>Dropdown Menu</h2>
+            <hr>
+            <p class="lead">Dropdowns are toggleable, contextual overlays for displaying lists of links and more.</p>
+          </header>
+
+
+
+          <div class="row gap-y">
+
+            <div class="col-12 col-lg-4">
+                {% include components/dropdown/dropdown-menu-1-default.html %}
+            </div>
+            <div class="col-12 col-lg-4">
+                {% include components/dropdown/dropdown-menu-2-with-header.html %}
+            </div>
+            <div class="col-12 col-lg-4">
+                {% include components/dropdown/dropdown-menu-3-with-header-right-text.html %}
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="section p-4">
+    <div class="container mt-5 mb-5">
+        <header class="section-header">
+        <h2>Dropup</h2>
+        <hr>
+        <p class="lead">Check more possibility with dropdowns and dropups including triggering from button or removing caret.</p>
+        </header>
+
+
+
+        <div class="row gap-y">
+            <div class="col-12 col-lg-4">
+                {% include components/dropdown/dropup-menu-1-default.html %}
+            </div>
+            <div class="col-12 col-lg-4">
+                {% include components/dropdown/dropup-menu-2-with-solid-color-button-toggler.html %}
+            </div>
+            <div class="col-12 col-lg-4">
+                {% include components/dropdown/dropup-menu-3-with-light-button-toggler-no-caret.html %}
+            </div>
+        </div>
+    </div>
+</section>

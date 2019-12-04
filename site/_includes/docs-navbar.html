@@ -1,7 +1,7 @@
-<header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
-  <a class="navbar-brand mr-0 mr-md-2" href="{{ site.baseurl }}/" aria-label="Bootstrap">
+<header class="navbar navbar-expand navbar-dark flex-column flex-md-row bg-black">
+  <!-- <a class="navbar-brand mr-0 mr-md-2" href="{{ site.baseurl }}/" aria-label="Bootstrap">
     {%- include icons/bootstrap.svg width="36" height="36" class="d-block" -%}
-  </a>
+  </a> -->
 
   <div class="navbar-nav-scroll">
     <ul class="navbar-nav bd-navbar-nav flex-row">
@@ -39,6 +39,10 @@
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/page_types/main_landing_page" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Main Landing Page</a></li>
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/page_types/main_landing_page_2" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Main Landing Page 2</a></li>
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/page_types/portal_landing_page" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Portal Landing Page</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/page_types/standard_page_1" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Standard Page 1</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/page_types/standard_page_2" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Standard Page 2</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/page_types/standard_page_3" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Standard Page 3</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/page_types/standard_page_4" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Standard Page 4</a></li>
               <!-- <li><a class="dropdown-item" href="#">Portal Chapter Page</a></li>
               <li><a class="dropdown-item" href="#">Media Gallery Page</a></li>
               <li><a class="dropdown-item" href="#">Search Results Page</a></li>
@@ -70,7 +74,7 @@
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/subscribe">Subscribe</a></li>
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/team">Team</a></li>
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/testimonial">Testimonial</a></li>
-              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/video">Video</a></li>
+              <!-- <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/blocks/video-block">Video</a></li> -->
               <!-- <li><a class="dropdown-item" href="#">Full-screen Media</a></li>
               <li><a class="dropdown-item" href="#">Page Cover</a></li>
               <li><a class="dropdown-item" href="#">Page Chapter Section</a></li>
@@ -85,7 +89,15 @@
       <li class="nav-item dropdown">
           <a href="#" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Components</span> <span class="caret"></span></a>
           <ul class="dropdown-menu">
-              <!-- <li><a class="dropdown-item" href="#">Accordion</a></li> -->
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/accordion">Accordion</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/badge">Badge</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/breadcrumb">Breadcrumb</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/button">Buttons</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/cards">Card</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/dropdown">Dropdown</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/gallery">Gallery</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/icon">Icon</a></li>
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/image">Image</a></li>
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/navbar">Navbar</a></li>
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/searchbar">Search Bar</a></li>
               <!-- <li><a class="dropdown-item" href="#">Label</a></li> -->
@@ -93,12 +105,9 @@
               <!-- <li><a class="dropdown-item" href="#">Button Groups</a></li> -->
               <!-- <li><a class="dropdown-item" href="#">Hyperlink</a></li> -->
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/carousel">Carousel</a></li>
-              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/cards">Card</a></li>
-              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/breadcrumb">Breadcrumb</a></li>
               <!-- <li><a class="dropdown-item" href="#">Line Separator</a></li> -->
               <!-- <li><a class="dropdown-item" href="#">Media and Caption Block</a></li> -->
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/quotes">Quotes</a></li>
-              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/image">Image</a></li>
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/imageslider">Image Slider</a></li>
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/video">Video</a></li>
               <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/v2/modals">Modals</a></li>
