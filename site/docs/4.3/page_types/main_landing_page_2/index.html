@@ -17,11 +17,13 @@ redirect_from: "/page_types/"
     <div class="container pt-5 pb-5">
         <h1 class="font-title-frank">Featured</h1>
         <h3 class="font-title-frank">10 Unforgettable Pinoy Horror Movies of the Last Decade</h3>
-        {% include design/slider/img-slider-with-desc.html %}
+        <div class="container-wide mt-4">
+            {% include design/slider/img-slider-with-desc.html %}
+        </div>
     </div>
     <div class="container pt-5 pb-5 bg-black text-white">
         <h1 class="font-title-frank">Featured Artist</h1>
-        <div class="container-wide">
+        <div class="container-wide mt-4">
             {% include blocks/content/content-block-2-single-left-image-right-text-dark-bg.html %}
             <div class="mt-3">
                 {% include components/slider/img-slider-with-bottom-text.html %}
@@ -31,8 +33,15 @@ redirect_from: "/page_types/"
 
     <div class="container pt-5 pb-5 bg-black text-white">
         <h3 class="font-title-frank">9 Rare Photographs from Philippine History You've Never Seen Before</h3>
-        <div class="container-wide">
+        <div class="container-wide mt-4">
             {% include components/images/img-masonry-3columns.html %}
+        </div>
+    </div>
+
+    <div class="container pt-5 pb-5 bg-black text-white">
+            <h1 class="font-title-frank">On this Day</h1>
+        <div class="container-wide mt-4">
+            {% include components/cards/cards.html %}
         </div>
     </div>
 

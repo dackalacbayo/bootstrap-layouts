@@ -5,7 +5,22 @@ description: ..
 redirect_from: "/components/v2/navbar"
 ---
 <div class="m-4">
-    <h6 id="block-1" class="block-number">Top Navbar</h6>
-    {% include components/navbar/navbar.html %}
-    {% include components/navbar/navbar-mobile.html %}
+    <div class="container mb-5 pb-5">
+        <h6 id="block-1" class="block-number">Top Left Navbar</h6>
+        {% include components/navbar/navbar-top-1-left-menu-items.html %}
+
+        <h6 id="block-1" class="block-number">Top Center Navbar</h6>
+        {% include components/navbar/navbar.html %}
+
+
+        <h6 id="block-1" class="block-number">Transparent Navbar Collapsible with Banner</h6>
+        {% include components/navbar/navbar-top-2-transparent-with-image-banner.html %}
+
+
+        <h6 id="block-1" class="block-number">mobile nav</h6>
+        <div class="mt-4">
+            {% include components/navbar/navbar-mobile-copy.html %}
+        </div>
+        {% include components/navbar/navbar-mobile.html %}
+    </div>
 </div>
