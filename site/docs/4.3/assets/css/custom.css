@@ -37,6 +37,19 @@ html {
     background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(0, 0, 0));
 }
 
+.center-object
+{
+    text-align: center;
+    object-position: center;
+}
+
+
+.media-caption-div
+{
+    text-align: center !important;
+    background-color: #B69530;
+}
+
 .opacity-light{
     opacity: 0.9;
 }
@@ -1598,18 +1611,24 @@ a .title-container span {
     padding: 0.5rem;
 }
 
-/* media queries */
+/* media queries
 @media (min-width: 200px) {
-    /* banner */
+    .mobile-general-style {
+        padding: 50px !important;
+      }
+
+
+    /* banner
     .banner_div{
         padding: 2rem;
+        height: 100vh !important;
     }
     .banner_title_big{
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
-        /* line-height: 90px; */
+        /* line-height: 90px;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;
@@ -1639,7 +1658,7 @@ a .title-container span {
         font-size: 11px;
     }
 
-    /* cards */
+    /* cards
     .card_section_container{
         text-align: center;
         padding: 2rem;
@@ -1651,7 +1670,7 @@ a .title-container span {
         padding: 1rem 1.25rem;
     }
 
-    /* dropdown */
+    /* dropdown
     .dropdown-toggle {
         cursor: pointer;
     }
@@ -1714,7 +1733,7 @@ a .title-container span {
     }
 
 
-    /* buttons */
+    /* buttons
     .card_button_ondarkoverlay{
         font-size: 12px;
         font-weight: 400;
@@ -1724,17 +1743,17 @@ a .title-container span {
         border-radius: 10rem;
     }
 
-    /* volume */
+    /* volume
     .volume_page{
         padding: 2rem;
-        /* height: 100vh; */
+        /* height: 100vh;
     }
 
     .navbar_left_sticky_box_container{
         display: none;
     }
     
-    /* masonry images */
+    /* masonry images
     .masonry{
         margin: 1.5em 0;
         padding: 0;
@@ -1759,9 +1778,10 @@ a .title-container span {
         column-count: 1;
     }
 
-    /* cover */
+    /* cover
     .portalpage_banner_image{
         background-size: cover;
+        background-position: 50% 50%;
         height: 75vh;
     }
 
@@ -1800,13 +1820,13 @@ a .title-container span {
         line-height: 3rem;
         font-family: Frank Ruhl Libre;
         font-weight: 500;
-        font-size: 35px;
+        font-size: 50px !important;
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         padding: 0.5rem;
     }
 
-    /* video */
+    /* video
     .video-wrapper{
         position: relative;
         display: block;
@@ -1820,7 +1840,7 @@ a .title-container span {
         width: 100%;
     }
 
-    /* article */
+    /* article
     .article-container{
         width: auto;
         margin-left: auto;
@@ -1831,10 +1851,10 @@ a .title-container span {
         padding: 0rem;
     }
 
-    /* cover without search bar */
+    /* cover without search bar
     .volumetag_big_volumename{
         font-family: Roboto;
-        font-size: 15px;
+        font-size: 9px !important;
         line-height: 20px;
         letter-spacing: 0.1em;
         color: #FFFFFF;
@@ -1842,7 +1862,7 @@ a .title-container span {
         width: -webkit-fit-content;
         width: -moz-fit-content;
         width: fit-content;
-        padding: 0.5rem;
+        padding: 10px;
     }
 
     .banner_subheader_onimage{
@@ -1851,7 +1871,7 @@ a .title-container span {
         font-style: normal;
         font-weight: normal;
         font-size: 13px;
-        /* line-height: 30px; */
+        /* line-height: 30px;
         -ms-flex-align: center;
         align-items: center;
         letter-spacing: 0.05em;
@@ -1861,16 +1881,18 @@ a .title-container span {
     }
 
     .banner_subheader_ondarkerimage{
+        display: none;
+
         color: white;
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
         font-size: 12px;
-        /* line-height: 0px; */
+        /* line-height: 0px;
         -ms-flex-align: center;
         align-items: center;
         letter-spacing: 0.05em;
-        /* display: inline; */
+        /* display: inline; 
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
@@ -1888,7 +1910,7 @@ a .title-container span {
         z-index: 1030;
     }
 
-    /* navbar mobile */
+    /* navbar mobile
     .mobile-menu-item{
         padding: 0 0px;
         display: block;
@@ -1911,10 +1933,16 @@ a .title-container span {
 
 }
 
+/*
 @media (min-width: 576px) {
-    /* banner */
+    .mobile-general-style {
+        /* padding: 50px !important; 
+      }
+
+    /* banner 
     .banner_div{
         padding: 5rem;
+        height: 100vh !important;
     }
 
     .banner_title_big{
@@ -1953,29 +1981,29 @@ a .title-container span {
         font-size: 17px;
     }
 
-    /* cards */
+    /* cards
     .card_section_container{
         text-align: center;
         padding: 2rem;
     }
 
-    /* buttons */
+    /* buttons
     .card_button_ondarkoverlay{
         font-size: 12px;
         font-weight: 400;
     }
 
-    /* volume */
+    /* volume
     .volume_page{
         padding: 2rem;
-        /* height: 100vh; */
+        /* height: 100vh;
     }
 
     .navbar_left_sticky_box_container{
         display: none;
     }
     
-    /* masonry images */
+    /* masonry images
     .masonry{
         margin: 1.5em 0;
         padding: 0;
@@ -2000,10 +2028,11 @@ a .title-container span {
         column-count: 1;
     }
 
-    /* cover */
+    /* cover
     .portalpage_banner_image{
         background-size: cover;
         height: 75vh;
+        background-position: 50% 50%;
     }
 
     .main_page_banner_image{
@@ -2041,13 +2070,13 @@ a .title-container span {
         line-height: 8.5rem;
         font-family: Frank Ruhl Libre;
         font-weight: 500;
-        font-size: 100px;
+        font-size: 100px !important;
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         padding: 0.5rem;
     }
 
-    /* video */
+    /* video
     .video-wrapper{
         position: relative;
         display: block;
@@ -2061,7 +2090,7 @@ a .title-container span {
         width: 50%;
     }
 
-    /* article */
+    /* article
     .article-container{
         width: 60%;
         margin-left: auto;
@@ -2072,10 +2101,10 @@ a .title-container span {
         padding: 2rem;
     }
 
-    /* cover without search bar */
+    /* cover without search bar
     .volumetag_big_volumename{
         font-family: Roboto;
-        font-size: 30px;
+        font-size: 12px !important;
         line-height: 20px;
         letter-spacing: 0.1em;
         color: #FFFFFF;
@@ -2083,7 +2112,7 @@ a .title-container span {
         width: -webkit-fit-content;
         width: -moz-fit-content;
         width: fit-content;
-        padding: 1rem;
+        padding: 10px !important;
     }
 
     .banner_subheader_onimage{
@@ -2113,6 +2142,7 @@ a .title-container span {
         letter-spacing: 0.05em;
         display: inline;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        max-width: 50px !important;
     }
 
     .item-carousel{
@@ -2129,7 +2159,7 @@ a .title-container span {
         z-index: 1030;
     }
 
-    /* navbar mobile */
+    /* navbar mobile
     .mobile-menu-item{
         padding: 0 50px;
         display: none;
@@ -2153,9 +2183,14 @@ a .title-container span {
 }
   
 @media (min-width: 768px) {
-    /* banner */
+    .mobile-general-style {
+        padding: 50px !important;
+      }
+
+    /* banner
     .banner_div{
         padding: 5rem;
+        height: 100vh !important;
     }
 
     .banner_title_big{
@@ -2194,29 +2229,29 @@ a .title-container span {
         font-size: 17px;
     }
 
-    /* cards */
+    /* cards
     .card_section_container{
         text-align: left;
         padding: 3rem;
     }
 
-    /* buttons */
+    /* buttons
     .card_button_ondarkoverlay{
         font-size: 15px;
         font-weight: 600;
     }
 
-    /* volume */
+    /* volume
     .volume_page{
         padding: 2rem;
-        /* height: 100vh; */
+        /* height: 100vh; 
     }
 
     .navbar_left_sticky_box_container{
         display: block;
     }
     
-    /* masonry images */
+    /* masonry images 
     .masonry{
         margin: 1.5em 0;
         padding: 0;
@@ -2241,10 +2276,11 @@ a .title-container span {
         column-count: 3;
     }
 
-    /* cover */
+    /* cover
     .portalpage_banner_image{
         background-size: cover;
         height: 100%;
+        background-position: 50% 50%;
     }
 
     .main_page_banner_image{
@@ -2288,7 +2324,7 @@ a .title-container span {
         padding: 0.5rem;
     }
 
-    /* video */
+    /* video
     .video-wrapper{
         position: relative;
         display: block;
@@ -2302,7 +2338,7 @@ a .title-container span {
         width: 75%;
     }
 
-    /* article */
+    /* article
     .article-container{
         width: 75%;
         margin-left: auto;
@@ -2313,10 +2349,10 @@ a .title-container span {
         padding: 0rem;
     }
 
-    /* cover without search bar */
+    /* cover without search bar
     .volumetag_big_volumename{
         font-family: Roboto;
-        font-size: 30px;
+        font-size: 15px !important;
         line-height: 20px;
         letter-spacing: 0.1em;
         color: #FFFFFF;
@@ -2324,7 +2360,7 @@ a .title-container span {
         width: -webkit-fit-content;
         width: -moz-fit-content;
         width: fit-content;
-        padding: 1rem;
+        padding: 0.2rem;
     }
 
     .banner_subheader_onimage{
@@ -2332,7 +2368,7 @@ a .title-container span {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 20px;
+        font-size: 25px;
         line-height: 30px;
         -ms-flex-align: center;
         align-items: center;
@@ -2354,6 +2390,7 @@ a .title-container span {
         letter-spacing: 0.05em;
         display: inline;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        max-width: 100px !important;
     }
 
     .item-carousel{
@@ -2370,7 +2407,7 @@ a .title-container span {
         z-index: 1030;
     }
 
-    /* navbar mobile */
+    /* navbar mobile
     .mobile-menu-item{
         padding: 0 50px;
         display: none;
@@ -2394,9 +2431,10 @@ a .title-container span {
 }
   
 @media (min-width: 992px) {
-    /* banner */
+    /* banner
     .banner_div{
         padding: 5rem;
+        height: 100vh !important;
     }
 
     .banner_title_big{
@@ -2435,29 +2473,29 @@ a .title-container span {
         font-size: 17px;
     }
 
-    /* cards */
+    /* cards
     .card_section_container{
         text-align: left;
         padding: 3rem;
     }
 
-    /* buttons */
+    /* buttons
     .card_button_ondarkoverlay{
         font-size: 15px;
         font-weight: 600;
     }
 
-    /* volume */
+    /* volume
     .volume_page{
         padding: 5rem;
-        /* height: 100vh; */
+        /* height: 100vh;
     }
 
     .navbar_left_sticky_box_container{
         display: block;
     }
     
-    /* masonry images */
+    /* masonry images
     .masonry{
         margin: 1.5em 0;
         padding: 0;
@@ -2482,10 +2520,11 @@ a .title-container span {
         column-count: 3;
     }
 
-    /* cover */
+    /* cover
     .portalpage_banner_image{
         background-size: cover;
         height: 100%;
+        background-position: 50% 50%;
     }
 
     .main_page_banner_image{
@@ -2529,7 +2568,7 @@ a .title-container span {
         padding: 0.5rem;
     }
 
-    /* video */
+    /* video
     .video-wrapper{
         position: relative;
         display: block;
@@ -2543,7 +2582,7 @@ a .title-container span {
         width: 50%;
     }
 
-    /* article */
+    /* article
     .article-container{
         width: 75%;
         margin-left: auto;
@@ -2554,10 +2593,10 @@ a .title-container span {
         padding: 2rem;
     }
 
-    /* cover without search bar */
+    /* cover without search bar
     .volumetag_big_volumename{
         font-family: Roboto;
-        font-size: 30px;
+        font-size: 15px !important;
         line-height: 20px;
         letter-spacing: 0.1em;
         color: #FFFFFF;
@@ -2611,7 +2650,7 @@ a .title-container span {
         z-index: 1030;
     }
 
-    /* navbar mobile */
+    /* navbar mobile
     .mobile-menu-item{
         padding: 0 50px;
         display: none;
@@ -2635,10 +2674,10 @@ a .title-container span {
 }
   
 @media (min-width: 1200px) {
-    /* banner */
+    /* banner
     .banner_div{
         padding: 5rem;
-        /* height: 100vh; */
+        height: 100vh !important;
     }
 
     .banner_title_big{
@@ -2677,29 +2716,29 @@ a .title-container span {
         font-size: 17px;
     }
 
-    /* cards */
+    /* cards
     .card_section_container{
         text-align: left;
         padding: 3rem;
     }
 
-    /* buttons */
+    /* buttons
     .card_button_ondarkoverlay{
         font-size: 15px;
         font-weight: 600;
     }
 
-    /* volume */
+    /* volume
     .volume_page{
         padding: 5rem;
-        /* height: 100vh; */
+        /* height: 100vh;
     }
 
     .navbar_left_sticky_box_container{
         display: block;
     }
     
-    /* masonry images */
+    /* masonry images
     .masonry{
         margin: 1.5em 0;
         padding: 0;
@@ -2724,10 +2763,11 @@ a .title-container span {
         column-count: 3;
     }
 
-    /* cover */
+    /* cover
     .portalpage_banner_image{
         background-size: cover;
         height: 100%;
+        background-position: 50% 50%;
     }
 
     .main_page_banner_image{
@@ -2776,7 +2816,7 @@ a .title-container span {
     }
 
     .nav-mobile{
-        /* display: -ms-flexbox; */
+        /* display: -ms-flexbox;
         display: none;
         position: fixed;
         right: 0;
@@ -2785,7 +2825,7 @@ a .title-container span {
         z-index: 1030;
     }
 
-    /* navbar mobile */
+    /* navbar mobile
     .mobile-menu-item{
         padding: 0 50px;
         display: none;
@@ -2808,3 +2848,214 @@ a .title-container span {
 
 }
 /*# sourceMappingURL=custom.css.map */
+
+
+
+
+/*new media queries*/
+
+/* .volumetag_big_volumename{
+    font-family: Roboto;
+    font-size: 15px !important;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 1rem;
+} */
+
+
+
+
+.breadcrumb-top
+{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+
+/*for laptops and desktops*/
+@media screen 
+ and (max-width: 1400px) 
+ and (min-width: 1025px) 
+{ 
+
+    /* BANNER */
+    /* page banner + image */
+    .banner_div{
+        padding: 100px;
+        height: 100vh !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    /* volume tag */
+    .volumetag_big_volumename{
+        font-family: Roboto;
+        font-size: 15px !important;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        padding: 10px;
+    }
+
+    /* banner header / title */
+    .banner_header_ondarkerimage
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 75px;
+        color:white;
+
+    }
+
+    /* banner subheader */
+    .banner_subheader_ondarkerimage
+    {
+        font-family: Roboto;
+        font-size: 20px;
+        color: white;
+        font-weight: 100;
+        max-width: 50%;
+    }
+
+    .breadcrumb-bottom
+    {
+        display: none;
+    }
+    
+}
+
+/*for tablets*/
+
+@media screen 
+ and (max-width: 1024px) 
+ and (min-width: 768px) 
+{
+    /* BANNER */
+    /* page banner + image */
+    .banner_div{
+        padding: 75px;
+        height: 100vh !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    /* volume tag */
+    .volumetag_big_volumename{
+        font-family: Roboto;
+        font-size: 12px !important;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        padding: 5px;
+    }
+
+    /* banner header / title */
+    .banner_header_ondarkerimage
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        color:white;
+
+    }
+
+    /* banner subheader */
+    .banner_subheader_ondarkerimage
+    {
+        font-family: Roboto;
+        font-size: 15px;
+        color: white;
+        font-weight: 100;
+        max-width: 70%;
+    }
+
+
+
+    .breadcrumb-bottom
+    {
+        display: none;
+    }
+}
+
+/*for mobile devices*/
+@media screen 
+ and (max-width: 480px) 
+ and (min-width: 320px) 
+{ 
+    /* BANNER */
+    /* page banner + image */
+    .banner_div{
+        padding: 50px;
+        height: 100vh !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+
+    /* volume tag */
+    .volumetag_big_volumename{
+        font-family: Roboto;
+        font-size: 12px !important;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        padding: 5px 7px 5px 7px;
+    }
+
+    /* banner header / title */
+    .banner_header_ondarkerimage
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 100px;
+        color:white;
+
+    }
+
+    /* banner subheader */
+    .banner_subheader_ondarkerimage
+    {
+        font-family: Roboto;
+        font-size: 19px;
+        color: white;
+        font-weight: 100;
+        max-width: 80%;
+        letter-spacing: 3px;
+    }
+
+    /*breadcrumbs*/
+    .breadcrumb-bottom
+    {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .breadcrumb-top
+    {
+        display: none;
+    }
+
+    .container
+    {
+        padding: 25px 50px 25px 50px !important;
+    }
+
+}
