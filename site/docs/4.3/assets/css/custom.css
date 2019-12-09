@@ -267,6 +267,100 @@ hr {
     animation: scrollDown1 2s infinite;
 }
 
+.scroll-down-2 span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    transform: rotate(-45deg);
+    -webkit-animation: scrollDown2 2s infinite;
+    animation: scrollDown2 2s infinite;
+}
+
+.scroll-down-3 {
+    position: relative;
+    margin-left: -34px;
+}
+
+.scroll-down-3 span {
+    position: absolute;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    transform: rotate(-45deg);
+    -webkit-animation: scrollDown3 2s infinite;
+    animation: scrollDown3 2s infinite;
+    opacity: 0;
+}
+
+.scroll-down-3 span:nth-of-type(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.scroll-down-3 span:nth-of-type(2) {
+    top: 16px;
+    -webkit-animation-delay: .15s;
+    animation-delay: .15s;
+}
+
+.scroll-down-3 span:nth-of-type(3) {
+    top: 32px;
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+}
+
+.scroll-down-4 span {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    opacity: .5;
+}
+
+.scroll-down-4 span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #000;
+    border-radius: 100%;
+}
+
+.scroll-down-5 span {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    opacity: .5;
+}
+
+.scroll-down-5 span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #000;
+    border-radius: 100%;
+    -webkit-animation: scrollDown5 2s infinite;
+    animation: scrollDown5 2s infinite;
+}
+
 /* navbar */
 .icon-mobile.active{
     color: #B69530 !important;
@@ -301,6 +395,28 @@ hr {
 
 .text-lighter {
     color: #bfc5ca !important;
+}
+
+.text-quoted::before {
+    content: '“';
+    padding-right: 2px;
+}
+
+.text-quoted::after {
+    content: '”';
+    padding-left: 2px;
+}
+
+.blockquote p::before {
+    content: '“';
+    margin-left: -13px;
+    padding-right: 4px;
+}
+
+.blockquote p::after {
+    content: '”';
+    margin-right: -13px;
+    padding-left: 4px;
 }
 
 .list-style-square{
@@ -1090,6 +1206,61 @@ hr {
     opacity: .9;
 }
 
+.pricing-3.popular {
+    background-color: #fafbfb;
+    position: relative;
+}
+
+.pricing-3 ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.pricing-3 .price {
+    font-size: 3.75rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.pricing-3 .popular-tag {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    background-color: #3cd458;
+    color: #fff;
+    padding: 1px 0.75rem;
+    padding-right: 1.5rem;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+
+.pricing-4 {
+    align-items: center;
+    color: #757575;
+    border: 1px solid #f1f2f3;
+}
+
+.pricing-4 .plan-description {
+    background-color: #fafbfb;
+    padding: 2rem;
+}
+
+.pricing-4 .plan-price {
+    text-align: center;
+}
+
+.pricing-4.popular, .pricing-4:hover, .pricing-4:focus {
+    box-shadow: 0 0 15px rgba(0,0,0,0.06);
+    color: #fff;
+}
+
 /* team */
 .team-1 img {
     border-radius: .25rem;
@@ -1532,6 +1703,45 @@ hr {
 .article_quote{
     border: dashed 2px;
 }
+
+.quotation{
+    font-size: 30px;
+    /* margin: 0 auto; */
+    quotes: "\201C""\201D""\2018""\2019";
+    padding: 10px 20px;
+    line-height: 1.4;
+  }
+  
+  .quotation:before {
+    content: open-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: -10px;
+    position: relative;
+    top: 30px;
+    color: #ccc;
+    font-size: 3em;
+  }
+  .quotation::after {
+    content: close-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: 10px;
+    position: relative;
+    top: 35px;
+    color: #ccc;
+    font-size: 3em;
+  }
+  .footer-quotation{
+    margin:0;
+    text-align: right;
+    font-size: 1.5em;
+    font-style: italic;
+    display: block;
+    padding-right: 2rem;
+  }
 
 /* modal */
 .modal-full {

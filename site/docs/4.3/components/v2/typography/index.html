@@ -1,0 +1,94 @@
+---
+layout: simple
+title: Page Types
+description: ..
+redirect_from: "/components/v2/typography"
+---
+
+<section id="headings" class="section">
+    <div class="container pt-5 pb-5">
+        <header class="section-header">
+        <small></small>
+        <h2>Headings</h2>
+        <hr>
+        <p class="lead">All HTML heading, <code>&lt;h1></code> through <code>&lt;h6></code>, are available as well as helpful <code>display-*</code> classes — a larger, slightly more opinionated heading style.</p>
+        </header>
+
+
+        <div class="text-center">
+        <h6 class="divider mt-7">Diplays</h6>
+        {% include components/typography/typography-1-displays.html %}
+        
+        <h6 class="divider mt-7">Headings</h6>
+            {% include components/typography/typography-2-headings.html %}
+        </div>
+
+    </div>
+</section>
+
+<section id="paragraphs" class="section bg-gray">
+    <div class="container pt-5 pb-5">
+        <header class="section-header">
+        <small></small>
+        <h2>Paragraphs</h2>
+        <hr>
+        <p class="lead">Develop your pages with several paragraphs. Make a paragraph stand out by adding <code>.lead</code> class.</p>
+        </header>
+
+
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                {% include components/typography/typography-3-paragraphs.html %}
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="inline-styling" class="section">
+    <div class="container pt-5 pb-5">
+        <header class="section-header">
+        <small></small>
+        <h2>Inline Styles</h2>
+        <hr>
+        <p class="lead">Modify appearance of your text or part of the paragraph with variety of styling tags.</p>
+        </header>
+
+
+        <div class="row">
+
+        <div class="col-md-6 mx-auto">
+            {% include components/typography/typography-4-inline-styles.html %}
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="list-styling" class="section bg-gray">
+    <div class="container pt-5 pb-5">
+        <header class="section-header">
+        <small></small>
+        <h2>List Styling</h2>
+        <hr>
+        <p class="lead">Display a list of items inside your content, rendered with a number, a bullet, or none.</p>
+        </header>
+
+
+        <div class="row gap-y">
+                {% include components/typography/typography-5-line-styling.html %}
+
+        </div>
+
+    </div>
+</section>
+
+<section id="blockquote" class="section">
+    <div class="container pt-5 pb-5">
+        <header class="section-header">
+        <small></small>
+        <h2>Blockquote</h2>
+        <hr>
+        {% include components/typography/typography-6-blockquote.html %}
+    </div>
+</section>

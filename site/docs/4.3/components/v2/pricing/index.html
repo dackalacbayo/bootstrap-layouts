@@ -1,0 +1,69 @@
+---
+layout: simple
+title: Page Types
+description: ..
+redirect_from: "/components/v2/pricing"
+---
+
+<section id="boxed" class="section">
+    <div class="container pt-5 pb-5">
+        <header class="section-header">
+        <h2>Boxed</h2>
+        <hr>
+        <p class="lead">Lots of pricing plans to be use in a white or gray background.</p>
+        </header>
+
+        <div class="row">
+
+        <div class="col-md-10 mx-auto">
+            <h6 class="divider">Boxed 1</h6>
+        </div>
+
+        <div class="col-md-4 mx-auto">
+            {% include components/pricing/pricing-boxed-1-normal.html %}
+        </div>
+
+
+        <div class="col-md-4 mx-auto">
+            {% include components/pricing/pricing-boxed-2-popular.html %}
+        </div>
+
+
+        <div class="col-md-10 mx-auto">
+            <h6 class="divider mt-9">Boxed 2</h6>
+        </div>
+
+        <div class="col-md-4 mx-auto">
+            {% include components/pricing/pricing-boxed-3-popular.html %}
+        </div>
+
+        <div class="col-md-4 mx-auto">
+            {% include components/pricing/pricing-boxed-4.html %}
+        </div>
+
+        </div>
+
+</div>
+</section>
+
+<section id="horizontal" class="section">
+    <div class="container pt-5 pb-5">
+        <header class="section-header">
+        <h2>Horizontal</h2>
+        <hr>
+        <p class="lead">Pricing plans with long text which usually needs to occupy a full width of a row.</p>
+        </header>
+
+        <div class="row">
+            <div class="col-md-10 mx-auto">
+                <h6 class="divider">Horizontal 1</h6>
+
+                {% include components/pricing/pricing-boxed-5-horizontal.html %}
+
+                <br>
+
+                {% include components/pricing/pricing-boxed-6-horizontal.html %}
+            </div>
+        </div>
+    </div>
+</section>
