@@ -2,11 +2,11 @@
 layout: home
 ---
 
-<div class="p-5">
+<div class="">
     <!-- Navbar -->
     <h3 id="heading-classes" class="text-center">Nav Bar</h3>
     <div class="mb-5">
-        {% include design/navbar/navbar.html %}
+        {% include components/navbar/navbar.html %}
     </div>
     {% include design/navbar/navbar-mobile.html %}
     
@@ -25,10 +25,10 @@ layout: home
     {% include design/cover/cover-with-logo.html %}
 
     <!-- Cards -->
-    <h3 id="heading-classes" class="text-center">Cards</h3>
+    <h3 id="heading-classes" class="text-center mt-5">Cards</h3>
     <div class="volume_page p-5">
         <div class="row justify-content-center">
-            {% include design/cards/cards.html %}
+            {% include components/cards/cards.html %}
         </div>
     </div>
 
@@ -52,16 +52,17 @@ layout: home
     {% include design/images/img-with-centered-upper-left-and-bottom-text.html %}
     {% include design/images/img-with-lightbox.html %}
     <h3 id="heading-classes" class="text-center">Image with Description</h3>
-    <div class="p-5 m-auto w-50"></div>
+    <div class="container"></div>
         {% include design/images/img-title-description.html %}
     </div>
-    <h3 id="heading-classes" class="text-center">Image Tiles</h3>
-    <div class="p-5 m-auto w-50">
+    <h3 id="heading-classes" class="text-center mt-5">Image Tiles</h3>
+    <div class="container">
         {% include design/images/img-tiles.html %}
     </div>
-    <h3 id="heading-classes" class="text-center">Image Masonry</h3>
-    <div class="p-5 m-auto w-50">
+    <h3 id="heading-classes" class="text-center mt-5">Image Masonry</h3>
+    <div class="container">
         {% include design/images/img-masonry.html %}
+        <h3 id="heading-classes" class="text-center mt-5">Image Masonry 3 Columns</h3>
         {% include design/images/img-masonry-3columns.html %}
     </div>
     <h3 id="heading-classes" class="text-center">Image Full width with text overlay</h3>
@@ -97,13 +98,13 @@ layout: home
     
 
     <!-- Video -->
-    <div class="p-5">
+    <div class="">
       <h3 id="heading-classes" class="text-center">Embedded Video</h3>
-      <div class="w-50 m-auto">
+      <div class="container">
           {% include design/video/embedded.html %}
       </div>
       <h3 id="heading-classes" class="text-center">Local Video</h3>
-      <div class="w-50 m-auto">
+      <div class="container">
           {% include design/video/local-video.html %}
       </div>
     </div>
@@ -118,7 +119,7 @@ layout: home
     <!-- Article -->
     <h3 class="text-center">Article Page</h3>
     
-    <div class="article_page article-container p-5">
+    <div class="article_page article-container">
         <div class="container">
             <div class="mt-4 mb-4">
                 <h4 class="text-center">Paragraph</h4>

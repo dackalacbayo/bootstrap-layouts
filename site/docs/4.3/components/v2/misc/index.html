@@ -1,0 +1,70 @@
+---
+layout: simple
+title: Components
+description: ..
+redirect_from: "/components/v2/misc"
+---
+
+<section id="pagination" class="section">
+    <div class="container p-5">
+        <header class="section-header">
+        <h2>Pagination</h2>
+        <hr>
+        <p class="lead">Pagination links indicate a series of related content exists across multiple pages.</p>
+        <p class="small-2"><a href="https://getbootstrap.com/docs/4.1/components/pagination/" target="_blank">On Bootstrap</a></p>
+        </header>
+
+
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="divider mt-8"><code>Basic</code></div>
+                {% include components/misc/pagination-1-basic.html %}
+                <div class="divider mt-8"><code>Centered</code></div>
+                {% include components/misc/pagination-2-centered.html %}
+                <div class="divider mt-8"><code>Pager</code></div>
+                {% include components/misc/pagination-3-pager.html %}   
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="tooltip" class="section bg-gray">
+        <div class="container p-5">
+          <header class="section-header">
+            <small></small>
+            <h2>Tooltip</h2>
+            <hr>
+            <p class="lead">Display a secondary information on an element on hover.</p>
+            <p class="small-2"><a href="https://getbootstrap.com/docs/4.1/components/tooltips/" target="_blank">On Bootstrap</a></p>
+          </header>
+
+        <div class="text-center">
+            {% include components/misc/tooltip-light-1-top.html %}   
+            {% include components/misc/tooltip-light-2-right.html %}   
+            {% include components/misc/tooltip-light-3-bottom.html %}   
+            {% include components/misc/tooltip-light-4-left.html %}   
+        </div>
+    </div>
+</section>
+
+
+
+<section id="popover" class="section">
+        <div class="container p-5">
+          <header class="section-header">
+            <small></small>
+            <h2>Popover</h2>
+            <hr>
+            <p class="lead">Pagination links indicate a series of related content exists across multiple pages.</p>
+            <p class="small-2"><a href="https://getbootstrap.com/docs/4.1/components/popovers/" target="_blank">On Bootstrap</a></p>
+          </header>
+    
+        <div class="text-center">
+            {% include components/misc/popover-light-1-right-with-header.html %}   
+            {% include components/misc/popover-light-2-right-dismissible-with-header.html %}   
+            {% include components/misc/popover-light-3-top-dismissible-with-header.html %}   
+            {% include components/misc/popover-light-4-right-no-header.html %}   
+        </div>
+    </div>
+</section>
