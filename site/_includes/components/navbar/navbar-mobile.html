@@ -1,26 +1,26 @@
-<nav class="navbar navbar-inverse navbar-expand-lg nav-mobile bg-black">
-    <a class="mobile-menu-item" href="#">
+<nav class="navbar navbar-inverse navbar-expand-lg nav-mobile bg-black border-bottom-gold">
+    <a class="mobile-menu-item" href="#" data-toggle="popup-home" data-target="#home">
         <div class="icon2 mb-0">
         <i class="fa fa-home" aria-hidden="true"></i>
         <i class="fa fa-home" aria-hidden="true"></i>
         </div>
         <div class="title-container"><span class="span-title" data-text="Home">Home</span></div>
     </a>
-    <a class="mobile-menu-item" href="#">
+    <a class="mobile-menu-item" href="#" data-toggle="popup-search" data-target="#search">
         <div class="icon2 mb-0">
         <i class="fa fa-search" aria-hidden="true"></i>
         <i class="fa fa-search" aria-hidden="true"></i>
         </div>
         <div class="title-container"><span class="span-title" data-text="About">Search</span></div>
     </a>
-    <a class="mobile-menu-item" href="#">
+    <a class="mobile-menu-item" href="#" data-toggle="popup-featured" data-target="#featured">
         <div class="icon2 mb-0">
         <i class="fa fa-star" aria-hidden="true"></i>
         <i class="fa fa-star" aria-hidden="true"></i>
         </div>
         <div class="title-container"><span class="span-title" data-text="Services">Featured</span></div>
     </a>
-    <a class="mobile-menu-item" href="#">
+    <a class="mobile-menu-item" href="#" data-toggle="popup-volume" data-target="#volume">
         <div class="icon2 mb-0">
         <i class="fa fa-book" aria-hidden="true"></i>
         <i class="fa fa-book" aria-hidden="true"></i>
@@ -30,21 +30,7 @@
   <!-- <a href="#" data-html="true" data-toggle="popover" title="Popover Header" data-content="
             <div class='aa'><b>Example popover</b> - contents</div>
             ">Toggle popover</a> -->
-  <a class="mobile-menu-item" href="#" data-html="true" data-toggle="popover" data-placement="top" style="left: 10px;" data-content="
-    <div class='aa'><b>Example popover</b> - contents
-        <b>Example popover</b> - contents
-        <b>Example popover</b> - contents
-        <b>Example popover</b> - contents
-        <b>Example popover</b> - contents
-        <b>Example popover</b> - contents
-        <b>Example popover</b> - contents
-        <b>Example popover</b> - contents
-        <b>Example popover</b> - contents
-        <b>Example popover</b> - contents
-        <b>Example popover</b> - contents
-        <b>Example popover</b> - contents
-    </div>
-    ">
+  <a class="mobile-menu-item" href="#" data-toggle="popup-more" data-target="#more">
         <div class="icon2 mb-0">
         <i class="fa fa-bars" aria-hidden="true"></i>
         <i class="fa fa-bars" aria-hidden="true"></i>
@@ -52,3 +38,68 @@
         <div class="title-container"><span class="span-title" data-text="Services">More</span></div>
     </a>
 </nav>
+
+<div id="home" class="popup popup-home nav-mobile-bottom-full-width col-12 col-md-4 collapse" data-position="bottom-full-width">
+    <button type="button" class="close" data-dismiss="popup" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="media ">
+        <img class="avatar mr-5" src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/avatar/1.jpg" alt="avatar">
+        <div class="media-body">
+        <h5>Home</h5>
+        <p class="mb-0">We'd like to welcome you to our website and hope you have a great time browsing our template.</p>
+        </div>
+    </div>
+</div>
+
+<div id="search" class="popup popup-search nav-mobile-bottom-full-width col-12 col-md-4 collapse" data-position="bottom-full-width">
+    <button type="button" class="close" data-dismiss="popup" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="media ">
+        <img class="avatar mr-5" src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/avatar/1.jpg" alt="avatar">
+        <div class="media-body">
+        <h5>Search</h5>
+        <p class="mb-0">We'd like to welcome you to our website and hope you have a great time browsing our template.</p>
+        </div>
+    </div>
+</div>
+
+<div id="featured" class="popup popup-featured nav-mobile-bottom-full-width col-12 col-md-4 collapse" data-position="bottom-full-width">
+    <button type="button" class="close" data-dismiss="popup" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="media ">
+        <img class="avatar mr-5" src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/avatar/1.jpg" alt="avatar">
+        <div class="media-body">
+        <h5>Featured</h5>
+        <p class="mb-0">We'd like to welcome you to our website and hope you have a great time browsing our template.</p>
+        </div>
+    </div>
+</div>
+
+<div id="volume" class="popup popup-volume nav-mobile-bottom-full-width col-12 col-md-4 collapse" data-position="bottom-full-width">
+    <button type="button" class="close" data-dismiss="popup" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="media ">
+        <img class="avatar mr-5" src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/avatar/1.jpg" alt="avatar">
+        <div class="media-body">
+        <h5>Volume List</h5>
+        <p class="mb-0">We'd like to welcome you to our website and hope you have a great time browsing our template.</p>
+        </div>
+    </div>
+</div>
+
+<div id="more" class="popup popup-more nav-mobile-bottom-full-width col-12 col-md-4 collapse" data-position="bottom-full-width">
+    <button type="button" class="close" data-dismiss="popup" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <div class="media ">
+        <img class="avatar mr-5" src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/avatar/1.jpg" alt="avatar">
+        <div class="media-body">
+        <h5>More</h5>
+        <p class="mb-0">We'd like to welcome you to our website and hope you have a great time browsing our template.</p>
+        </div>
+    </div>
+</div>

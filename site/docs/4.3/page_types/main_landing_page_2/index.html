@@ -7,13 +7,13 @@ redirect_from: "/page_types/"
 
 
 <div class="bg-black text-white">
-    {% include design/cover/cover-with-logo.html %}
+    {% include blocks/cover/cover-with-logo.html %}
 
     <div class="container pt-5 pb-5">
         <h1 class="font-title-frank">Volumes</h1>
-        
+        {% include components/slider/img-slider-with-img-indicators-text-overlay.html %}
     </div>
-    {% include components/carousel/img-slider-with-img-indicators-text-overlay.html %}
+    
 
     <div class="container pt-5 pb-5">
         <h1 class="font-title-frank">Featured</h1>
@@ -32,14 +32,14 @@ redirect_from: "/page_types/"
         </div>
     </div>
 
-    <div class="container pt-5 pb-5 bg-black text-white">
+    <div class="container pt-5 bg-black text-white">
         <h3 class="font-title-frank">9 Rare Photographs from Philippine History You've Never Seen Before</h3>
-        <div class="container-wide mt-4">
+        <div class="container-wide mt-4 mb-0">
             {% include components/images/img-masonry-3columns.html %}
         </div>
     </div>
 
-    <div class="container pt-5 pb-5 bg-black text-white">
+    <div class="container pb-5 bg-black text-white">
             <h1 class="font-title-frank">On this Day</h1>
         <div class="container-wide mt-4">
             {% include components/cards/cards.html %}
