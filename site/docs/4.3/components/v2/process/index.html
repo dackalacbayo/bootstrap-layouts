@@ -1,0 +1,51 @@
+---
+layout: simple
+title: Page Types
+description: ..
+redirect_from: "/components/v2/process"
+---
+
+<section id="timeline" class="section">
+    <div class="container pt-5 pb-5">
+        <header class="section-header">
+        <h2>Timeline</h2>
+        <hr>
+        <p class="lead">The activity timeline could display upcoming, current, and past activities.</p>
+        </header>
+
+
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                {% include components/process/process-1-timeline-vertical.html %}
+            </div>
+        </div>
+
+        <div class="divider mb-7 mt-9"><code>.timeline-horizontal</code></div>
+        {% include components/process/process-2-timeline-horizontal.html %}
+        
+    </div>
+</section>
+
+<section id="steps" class="section bg-dark text-white">
+    <div class="container pt-5 pb-5">
+        <header class="section-header">
+        <h2>Steps</h2>
+        <hr>
+        <p class="lead">Display the procedure of acomplishing a task by following consecutive steps.</p>
+        </header>
+
+
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                {% include components/process/process-3-basic-steps.html %}
+
+                <h6 class="divider my-8">Iconic steps</h6>
+                {% include components/process/process-4-iconic-steps.html %}
+
+                <h6 class="divider my-8">Styling icons</h6>
+                {% include components/process/process-5-styling-icons.html %}
+
+            </div>
+        </div>
+    </div>
+</section>

@@ -2,13 +2,13 @@
 layout: home
 ---
 
-<div class="">
+<div class="mt-5 font-frank">
     <!-- Navbar -->
     <h3 id="heading-classes" class="text-center">Nav Bar</h3>
     <div class="mb-5">
         {% include components/navbar/navbar.html %}
     </div>
-    {% include design/navbar/navbar-mobile.html %}
+      {% include components/navbar/navbar-mobile.html %}
     
     <!-- Sections -->
     <h3 id="heading-classes" class="text-center">Sections</h3>
@@ -17,12 +17,12 @@ layout: home
 
     <!-- Covers -->
     <h3 id="heading-classes" class="text-center">Cover with scroll down button</h3>
-    <div class="mb-5">{% include design/cover/cover.html %}</div>
+    <div class="mb-5">{% include blocks/cover/cover-with-scroll-button.html %}</div>
     <h3 id="heading-classes" class="text-center">Cover with search bar</h3>
-    <div class="mb-5">{% include design/cover/cover-with-searchbar.html %}</div>
-    {% include design/cover/cover-without-searchbar.html %}
-    {% include design/cover/cover-darkbg-without-searchbar.html %}
-    {% include design/cover/cover-with-logo.html %}
+    <div class="mb-5">{% include blocks/cover/cover-with-searchbar.html %}</div>
+    {% include blocks/cover/cover-without-searchbar.html %}
+    {% include blocks/cover/cover-darkbg-without-searchbar.html %}
+    {% include blocks/cover/cover-with-logo.html %}
 
     <!-- Cards -->
     <h3 id="heading-classes" class="text-center mt-5">Cards</h3>
@@ -35,82 +35,105 @@ layout: home
     <!-- Breadcrumb -->
     <h3 id="heading-classes" class="text-center">Breadcrumb</h3>
     <div class="volume_page p-5">
-        {% include design/breadcrumb/breadcrumb.html %}
+        {% include components/breadcrumb/breadcrumb-dark-1-left.html %}
     </div>
 
     <!-- Images -->
     <h3 id="heading-classes" class="text-center">Image Centered with text overlay</h3>
     <div class="volume_page p-5">
-        {% include design/images/img-with-text-overlay.html %}
+        {% include components/images/img-with-text-overlay.html %}
     </div>
-    {% include design/images/rounded-img.html %}
-    {% include design/images/rounded-img-with-text-overlay.html %}
-    {% include design/images/rounded-img-with-bottom-text.html %}
-    {% include design/images/img-with-text-upper-left.html %}
-    {% include design/images/img-with-bottom-text.html %}
-    {% include design/images/img-with-bottom-and-text-overlay.html %}
-    {% include design/images/img-with-centered-upper-left-and-bottom-text.html %}
-    {% include design/images/img-with-lightbox.html %}
-    <h3 id="heading-classes" class="text-center">Image with Description</h3>
-    <div class="container"></div>
-        {% include design/images/img-title-description.html %}
+    <h3 id="heading-classes" class="text-center">Rounded Image</h3>
+    <div class="volume_page p-5">
+        {% include components/images/rounded-img.html %}
     </div>
+    <h3 id="heading-classes" class="text-center">Rounded Image Centered with text overlay</h3>
+    <div class="volume_page p-5">
+        {% include components/images/rounded-img-with-text-overlay.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center">Rounded Image with bottom text</h3>
+    <div class="volume_page p-5">
+        {% include components/images/rounded-img-with-bottom-text.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center">Image with text overlay on upper left corner</h3>
+    <div class="volume_page p-5">
+        {% include components/images/img-with-text-upper-left.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center">Image with bottom text</h3>
+    <div class="volume_page p-5">
+        {% include components/images/img-with-bottom-text.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center">Image with text overlay and bottom text</h3>
+    <div class="volume_page p-5">
+        {% include components/images/img-with-bottom-and-text-overlay.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center">Image with centered, upper left and bottom text overlay</h3>
+    <div class="volume_page p-5">
+        {% include components/images/img-with-centered-upper-left-and-bottom-text.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center">Image with lightbox</h3>
+    <div class="volume_page p-5">
+        {% include components/images/img-with-lightbox.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center mb-5">Image with Description</h3>
+        {% include components/images/img-title-description.html %}
     <h3 id="heading-classes" class="text-center mt-5">Image Tiles</h3>
     <div class="container">
-        {% include design/images/img-tiles.html %}
+        {% include components/images/img-tiles.html %}
     </div>
     <h3 id="heading-classes" class="text-center mt-5">Image Masonry</h3>
     <div class="container">
-        {% include design/images/img-masonry.html %}
+        {% include components/images/img-masonry.html %}
         <h3 id="heading-classes" class="text-center mt-5">Image Masonry 3 Columns</h3>
-        {% include design/images/img-masonry-3columns.html %}
+        {% include components/images/img-masonry-3columns.html %}
     </div>
     <h3 id="heading-classes" class="text-center">Image Full width with text overlay</h3>
-    <div class="p-5 m-auto w-60">
-        {% include design/images/img-full-width-with-text-overlay.html %}
+    <div class="container p-5">
+        {% include components/images/img-full-width-with-text-overlay.html %}
     </div>
-    <!-- <h3 id="heading-classes" class="text-center">Image with bottom text overlay</h3>
-    <div class="p-5">
-        {% include design/images/img-with-bottom-text-overlay.html %}
-    </div> -->
-    
+
 
     <!-- Image Slider -->
     <h3 id="heading-classes" class="text-center">Image Slider (Owl Carousel/Responsive without Loop)</h3>
     <div class="volume_page p-5">
-        {% include design/slider/img-slider-responsive.html %}
+        {% include components/slider/img-slider-responsive.html %}
     </div>
-    {% include design/slider/img-slider-center-with-loop.html %}
-    {% include design/slider/img-slider-with-lightbox.html %}
-    {% include design/slider/img-slider-with-img-indicators.html %}
+    <h3 id="heading-classes" class="text-center">Image Slider (Owl Carousel/Center with Loop)</h3>
+    <div class="volume_page p-5">
+        {% include components/slider/img-slider-center-with-loop.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center">Image Slider (Owl Carousel with Lightbox)</h3>
+    <div class="volume_page p-5">
+        {% include components/slider/img-slider-with-lightbox.html %}
+    </div>
+    <h3 id="heading-classes" class="text-center">Image Slider with Image Indicators</h3>
+    <div class="">
+        {% include components/slider/img-slider-with-img-indicators.html %}
+    </div>
     <h3 id="heading-classes" class="text-center">Image Slider with description (Portrait)</h3>
     <div class="volume_page p-5">
-        {% include design/slider/img-slider-with-desc.html %}
+        {% include components/slider/img-slider-with-desc.html %}
     </div>
-    <!-- <h3 id="heading-classes" class="text-center">Image Slider with bottom text overlay</h3>
-    <div class="volume_page p-5">
-        {% include design/slider/img-slider-with-bottom-overlay.html %}
-    </div> -->
     <h3 id="heading-classes" class="text-center">Image Slider with bottom text overlay</h3>
-    <div class="volume_page p-5">
-        {% include design/slider/img-slider-with-img-indicators-text-overlay.html %}
+    <div class="">
+        {% include components/slider/img-slider-with-img-indicators-text-overlay.html %}
     </div>
     
 
     <!-- Video -->
-    <div class="">
+    <div class="mt-5">
       <h3 id="heading-classes" class="text-center">Embedded Video</h3>
       <div class="container">
-          {% include design/video/embedded.html %}
+          {% include components/video/embedded.html %}
       </div>
       <h3 id="heading-classes" class="text-center">Local Video</h3>
       <div class="container">
-          {% include design/video/local-video.html %}
+          {% include components/video/local-video.html %}
       </div>
     </div>
     
      <!-- Modal -->
-     {% include design/modals/modals.html %}
+     {% include components/modals/modals.html %}
 
      <!-- Popover -->
      <!-- {% include design/popover/popover.html %} -->
@@ -123,7 +146,10 @@ layout: home
         <div class="container">
             <div class="mt-4 mb-4">
                 <h4 class="text-center">Paragraph</h4>
-                {% include design/article/paragraph.html %}
+                <div class="mt-5">
+                    {% include design/article/paragraph.html %}
+                </div>
+                
             </div>
             <div class="mt-4 mb-4">
                 <h4 class="text-center">Paragraph with Photo</h4>
@@ -163,7 +189,7 @@ layout: home
     <div class="mb-5">
         <div class="volume_page bg-black">
             <div class="row">
-                {% include design/searchbar/searchbar.html %}
+                {% include components/searchbar/searchbar.html %}
             </div>
         </div>
     </div>
@@ -176,88 +202,3 @@ layout: home
 
 
 
-<!-- <main class="bd-masthead" id="content" role="main">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-6 mx-auto col-md-6 order-md-2">
-        {% include icons/bootstrap-stack.svg width="512" height="430" class="img-fluid mb-3 mb-md-0" %}
-      </div>
-      <div class="col-md-6 order-md-1 text-center text-md-left pr-md-5">
-        <h1 class="mb-3 bd-text-purple-bright">Bootstrap</h1>
-        <p class="lead">
-          Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
-        </p>
-        <p class="lead mb-4">
-          Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
-        </p>
-        <div class="row mx-n2">
-          <div class="col-md px-2">
-            <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/introduction/" class="btn btn-lg btn-bd-primary w-100 mb-3" onclick="ga('send', 'event', 'Jumbotron actions', 'Get started', 'Get started');">Get started</a>
-          </div>
-          <div class="col-md px-2">
-            <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download/" class="btn btn-lg btn-outline-secondary w-100 mb-3" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download {{ site.current_version }}');">Download</a>
-          </div>
-        </div>
-        <p class="text-muted mb-0">
-          Currently v{{ site.current_version }}
-        </p>
-      </div>
-    </div>
-    {% include ads.html %}
-  </div>
-</main>
-
-<div class="masthead-followup row m-0 border border-white">
-  <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
-
-    {% include icons/import.svg width="32" height="32" class="text-primary mb-2" %}
-    <h3>Installation</h3>
-    <p>Include Bootstrap’s source Sass and JavaScript files via npm, Composer or Meteor. Package managed installs don’t include documentation, but do include our build system and readme.</p>
-
-{% highlight sh %}
-npm install bootstrap
-{% endhighlight %}
-
-{% highlight sh %}
-gem install bootstrap -v {{ site.current_ruby_version }}
-{% endhighlight %}
-
-    <hr class="half-rule">
-    <a class="btn btn-outline-primary" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download/">Read installation docs</a>
-  </div>
-
-  <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
- 
-    {% include icons/download.svg width="32" height="32" class="text-primary mb-2" %}
-    <h3>BootstrapCDN</h3>
-    <p>When you only need to include Bootstrap’s compiled CSS or JS, you can use <a href="https://www.bootstrapcdn.com/">BootstrapCDN</a>.</p>
-
-<h5>CSS only</h5>
-{% highlight html %}
-<link rel="stylesheet" href="{{ site.cdn.css }}" integrity="{{ site.cdn.css_hash }}" crossorigin="anonymous">
-{% endhighlight %}
-
-<h5>JS, Popper.js, and jQuery</h5>
-{% highlight html %}
-<script src="{{ site.cdn.jquery }}" integrity="{{ site.cdn.jquery_hash }}" crossorigin="anonymous"></script>
-<script src="{{ site.cdn.popper }}" integrity="{{ site.cdn.popper_hash }}" crossorigin="anonymous"></script>
-<script src="{{ site.cdn.js }}" integrity="{{ site.cdn.js_hash }}" crossorigin="anonymous"></script>
-{% endhighlight %}
-    <hr class="half-rule">
-    <a class="btn btn-outline-primary" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/layout/overview/">Explore the docs</a>
-  </div>
-
-  <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
-
-    {% include icons/lightning.svg width="32" height="32" class="text-primary mb-2" %}
-    <h3>Official Themes</h3>
-    <p>
-      Take Bootstrap 4 to the next level with official premium themes—toolkits built on Bootstrap with new components and plugins, docs, and build tools.
-    </p>
-    <img class="img-fluid mt-3 mx-auto" srcset="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/bootstrap-themes.png,
-                                                {{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/bootstrap-themes@2x.png 2x"
-                                        src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/bootstrap-themes.png" alt="Bootstrap Themes" width="500" height="200">
-    <hr class="half-rule">
-    <a href="{{ site.themes }}/" class="btn btn-outline-primary">Browse themes</a>
-  </div>
-</div> 
