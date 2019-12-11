@@ -1,7 +1,7 @@
 
 <script src="{{ site.cdn.jquery }}" integrity="{{ site.cdn.jquery_hash }}" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 {%- if jekyll.environment == "production" -%}
   <script src="{{ site.baseurl }}/docs/{{ site.docs_version }}/dist/js/bootstrap.bundle.min.js" integrity="{{ site.cdn.js_bundle_hash }}" crossorigin="anonymous"></script>
 {%- else -%}
@@ -67,14 +67,31 @@
         $('[data-toggle="popup-bottom-right"]').click(function(){
             $(".popup-bottom-right").collapse('toggle');
         });
+        $('[data-toggle="popup-home"]').click(function(){
+            $(".popup-home").collapse('toggle');
+        });
+        $('[data-toggle="popup-search"]').click(function(){
+            $(".popup-search").collapse('toggle');
+        });
+        $('[data-toggle="popup-featured"]').click(function(){
+            $(".popup-featured").collapse('toggle');
+        });
+        $('[data-toggle="popup-volume"]').click(function(){
+            $(".popup-volume").collapse('toggle');
+        });
+        $('[data-toggle="popup-more"]').click(function(){
+            $(".popup-more").collapse('toggle');
+        });
         $(".close").click(function(){
             $(".popup").collapse('hide');
         });
     });
 
+
     //scroll top button
     var btn = $('#button-scroll');
         $(window).scroll(function() {
+            console.log("toppp")
           if ($(window).scrollTop() > 300) {
             btn.addClass('show');
           } else {
@@ -82,8 +99,9 @@
           }
         });
         btn.on('click', function(e) {
-          e.preventDefault();
-          $('html, body').animate({scrollTop:650}, '300');
+            console.log("clicked")
+           e.preventDefault();
+        $('html, body').animate({scrollTop:0}, '300');
         });
 
     //     const observer = lozad('.lozad', {
