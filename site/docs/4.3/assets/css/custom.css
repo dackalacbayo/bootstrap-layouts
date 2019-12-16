@@ -2747,6 +2747,7 @@ a .title-container span {
 
 }
   
+
 /* @media (min-width: 768px) {
     .mobile-general-style {
         padding: 50px !important;
@@ -3477,17 +3478,11 @@ a .title-container span {
 
 
 
-
-/*to transfer*/
-.homepage-search
-{
-    padding: 25px 50px 0 50px !important;
-}
-
 /*for laptops and desktops*/
 @media screen 
 /* and (max-width: 1400px) */
 and (min-width: 1025px) 
+
 { 
 
     /* BANNER */
@@ -4696,6 +4691,7 @@ and (min-width: 320px)
     
     .breadcrumb-item-icon:not(:first-child):not(:last-child) {
         display: none ;
+
     }
 
     /* sidebar menu, left, landing page */
