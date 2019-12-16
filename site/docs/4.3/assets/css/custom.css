@@ -769,7 +769,7 @@ hr {
 .sidebar-sticky{
     width: 25%;
     height: 25vh; 
-    min-height: 200px;
+    min-height: 120px;
     overflow: auto;
     position: -webkit-sticky;
     position: sticky;
@@ -2766,6 +2766,7 @@ a .title-container span {
 
 }
   
+
 /* @media (min-width: 768px) {
     .mobile-general-style {
         padding: 50px !important;
@@ -3472,11 +3473,36 @@ a .title-container span {
     z-index: 2;
 }
 
+.mainNavbar
+{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.arrowbutton_down_withtext_animated{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.card_section_container
+{
+    margin: 0 !important;
+    padding: 40px;
+}
+
+
+
 
 /*for laptops and desktops*/
 @media screen 
 /* and (max-width: 1400px) */
 and (min-width: 1025px) 
+
 { 
 
     /* BANNER */
@@ -3541,6 +3567,45 @@ and (min-width: 1025px)
         display: none;
     }
 
+
+    /* cover, landing */
+    .banner_title_big
+    {
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        font-size: 75px !important;
+        line-height: 70px;
+    }
+
+    .banner_subtitle
+    {
+        color: white;
+        font-size: 19px;
+        font-weight: lighter;
+        letter-spacing: 1px;
+    }
+    
+    .sidebar-sticky {
+        width: 25%;
+        height: 25vh; 
+        min-height: 120px;
+        overflow: auto;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 30%;
+    }
+}
+
+/*for tablets*/
+
+@media screen 
+ and (max-width: 1024px) 
+ /* and (min-width: 768px)  */
+ and (min-width: 481px)
+{
+    /* BANNER */
+    /* page banner + image */
+
     .banner_div{
         padding: 5rem;
         height: 100vh !important;
@@ -3574,6 +3639,37 @@ and (min-width: 1025px)
         color: #FFFFFF;
     }
 
+
+    .breadcrumb-bottom
+    {
+        display: none;
+    }
+
+    /* cover, landing page */
+    .banner_title_big
+    {
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        font-size: 75px !important;
+        line-height: 70px;
+    }
+
+    .banner_subtitle
+    {
+        color: white;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    /* sidebar menu, left, landing page */
+    .sidebar-menu
+    {
+        display: none;
+    }
+
+
+}
+
     .arrowbutton_down_withtext_animated{
         display: -ms-flexbox;
         display: flex;
@@ -3581,6 +3677,7 @@ and (min-width: 1025px)
         justify-content: center;
         font-size: 17px;
     }
+
 
     /* cards */
     .card_section_container{
@@ -4721,6 +4818,7 @@ and (min-width: 320px)
     
     .breadcrumb-item-icon:not(:first-child):not(:last-child) {
         display: none ;
+
     }
 
     #button-scroll {
@@ -4787,4 +4885,10 @@ and (min-width: 320px)
     .timeline-item:nth-child(even) {
         margin-left: 0rem;
     }
+    /* sidebar menu, left, landing page */
+    .sidebar-menu
+    {
+        display: none;
+    }
+  
 }
