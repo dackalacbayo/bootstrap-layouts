@@ -3509,6 +3509,14 @@ and (min-width: 1025px)
 
 { 
 
+/*COVER*/
+.font_cover_title
+{
+    font-size: 5vw;
+}
+
+
+
     /* BANNER */
     /* page banner + image */
     .banner_div{
@@ -3613,6 +3621,13 @@ and (min-width: 1025px)
  /* and (min-width: 768px)  */
  and (min-width: 481px)
 {
+/*COVER*/
+.font_cover_title
+{
+    font-size: 5vw;
+}
+
+
     /* BANNER */
     /* page banner + image */
 
@@ -3968,6 +3983,13 @@ and (min-width: 1025px)
 and (max-width: 1024px)
 and (min-width: 481px) 
 {
+/*COVER*/
+.font_cover_title
+{
+    font-size: 4vw;
+}
+
+
     /* BANNER */
     /* page banner + image */
     .banner_div{
@@ -4409,6 +4431,12 @@ and (min-width: 481px)
 and (max-width: 480px)
 and (min-width: 320px) 
 { 
+/*COVER*/
+.font_cover_title
+{
+    font-size: 5vw;
+}
+
     /* BANNER */
     /* page banner + image */
     .banner_div{
