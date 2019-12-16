@@ -48,6 +48,7 @@ html {
     bottom: auto;
     top: 2rem;
     left: 2rem;
+    z-index: 999;
 }
 
 .popup[data-position="top-center"] {
@@ -56,16 +57,19 @@ html {
     top: 2rem;
     left: 50%;
     transform: translate(-50%);
+    z-index: 999;
 }
 
 .popup[data-position="top-right"] {
     bottom: auto;
     top: 2rem;
+    z-index: 999;
 }
 
 .popup[data-position="bottom-left"] {
     right: auto;
     left: 2rem;
+    z-index: 999;
 }
 
 .popup[data-position="bottom-center"] {
@@ -73,12 +77,14 @@ html {
     left: 50%;
     transform: translate(-50%, 0) !important;
     bottom: 5%;
+    z-index: 999;
 }
 
 .popup[data-position="bottom-right"] {
     top: auto !important;
     bottom: 2rem;
     right: 5%;
+    z-index: 999;
 }
 
 .popup[data-position="bottom-full-width"] {
@@ -86,6 +92,7 @@ html {
     left: 50%;
     transform: translate(-50%, 0) !important;
     bottom: 10%;
+    z-index: 999;
 }
 
 .popup {
@@ -95,6 +102,7 @@ html {
     border: 1px solid rgb(241, 242, 243);
     border-radius: 0.25rem;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 15px;
+    z-index: 999;
 }
 
 /* .popup.show {
@@ -2133,6 +2141,8 @@ a .title-container span {
     -o-object-fit: contain;
     object-fit: contain;
     /* height: 60vh; */
+    padding: 0 !important;
+    
 }
 
 /* fullwidth with textoverlay */
@@ -3468,6 +3478,12 @@ a .title-container span {
 
 
 
+/*to transfer*/
+.homepage-search
+{
+    padding: 25px 50px 0 50px !important;
+}
+
 /*for laptops and desktops*/
 @media screen 
 /* and (max-width: 1400px) */
@@ -3516,7 +3532,6 @@ and (min-width: 1025px)
         max-width: 50%;
     }
 
-
     .banner_subheader_onimage{
         color: white;
         font-family: Roboto;
@@ -3544,6 +3559,13 @@ and (min-width: 1025px)
         color: white;
         font-size: 75px !important;
         line-height: 70px;
+        text-transform: capitalize !important;
+        padding-bottom: 20px;
+    }
+
+    .text-over-title
+    {
+        font-size: 30px !important;
     }
 
     .banner_subtitle
@@ -3580,7 +3602,7 @@ and (min-width: 1025px)
         height: 100vh !important;
     }
 
-    .banner_title_big{
+    /* .banner_title_big{
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
@@ -3592,6 +3614,22 @@ and (min-width: 1025px)
         align-items: center;
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    } */
+
+    /* cover, landing */
+    .banner_title_big
+    {
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        font-size: 65px !important;
+        line-height: 70px;
+        text-transform: capitalize !important;
+        padding-bottom: 20px;
+    }
+
+    .text-over-title
+    {
+        font-size: 25px !important;
     }
 
     .banner_subtitle{
@@ -3620,6 +3658,7 @@ and (min-width: 1025px)
         color: white;
         font-size: 75px !important;
         line-height: 70px;
+        padding-bottom: 10px;
     }
 
     .banner_subtitle
@@ -3633,6 +3672,11 @@ and (min-width: 1025px)
     .sidebar-menu
     {
         display: none;
+    }
+
+    .mobile-container
+    {
+        padding: 25px 50px 25px 50px !important;
     }
 
 
@@ -3703,8 +3747,8 @@ and (min-width: 1025px)
     }
 
     .main_page_banner_image{
-        background-size: contain;
-        height: 75vh;
+        background-size: cover;
+        height: 100vh;
     }
 
     .volumetag_big_numberonly{
@@ -3835,7 +3879,16 @@ and (min-width: 1025px)
     .breadcrumb-item-icon:not(:first-child):not(:last-child) {
         display: block ;
     }
-    
+
+    .homepage-body
+    {
+        padding: 50px !important;
+    }
+
+    .homepage-section-titles
+    {
+        padding: 0 0 20px 0;
+    }
 }
 
 /*for tablets*/
@@ -3901,18 +3954,20 @@ and (min-width: 481px)
         height: 100vh !important;
     }
 
-    .banner_title_big{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 75px;
-        line-height: 90px;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-align: center;
-        align-items: center;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* cover, landing */
+    .banner_title_big
+    {
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        font-size: 65px !important;
+        line-height: 70px;
+        text-transform: capitalize !important;
+        padding-bottom: 20px;
+    }
+
+    .text-over-title
+    {
+        font-size: 25px !important;
     }
 
     .banner_subtitle{
@@ -3993,8 +4048,8 @@ and (min-width: 481px)
     }
 
     .main_page_banner_image{
-        background-size: contain;
-        height: 75vh;
+        background-size: cover;
+        height: 100vh;
     }
 
     .volumetag_big_numberonly{
@@ -4438,8 +4493,8 @@ and (min-width: 320px)
     }
 
     .main_page_banner_image{
-        background-size: contain;
-        height: 75vh;
+        background-size: cover;
+        height: 100vh;
     }
 
     .volumetag_big_numberonly{
