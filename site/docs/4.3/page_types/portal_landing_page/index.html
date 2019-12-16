@@ -6,18 +6,20 @@ redirect_from: "/page_types/"
 ---
 
 <div class="bg-black text-white">
-    {% include design/breadcrumb/breadcrumb.html %}
-    {% include design/cover/cover-with-searchbar.html %}
+    {% include components/breadcrumb/breadcrumb-dark-1-left.html %}
+    {% include blocks/cover/cover-with-searchbar.html %}
 
     <div class="p-5">
         <p class="sectiontitle_centered">In this Volume</p>
-        {% include design/images/img-with-text-overlay.html %}
+        {% include components/images/img-with-text-overlay.html %}
     </div>
-    <div class="padding-left-5 pt-5 pb-5">
-        <h1 class="display-4 font-title-frank">People of the Philippines</h1>
-        <h3 class="font-title-frank">All Peoples</h3>
-        {% include design/slider/img-slider-responsive.html %}
+
+    <div class="pt-5 pb-5">
+        <div class="container">
+            <h1 class="display-4 font-frank">People of the Philippines</h1>
+            <h3 class="font-title-frank">All Peoples</h3>
+            {% include components/slider/img-slider-responsive.html %}
+        </div>
     </div>
-    
 </div>
     
