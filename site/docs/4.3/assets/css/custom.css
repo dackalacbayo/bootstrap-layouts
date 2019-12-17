@@ -144,6 +144,8 @@ html {
     background-color: #B69530;
 }
 
+
+
 .opacity-light{
     opacity: 0.9;
 }
@@ -770,7 +772,7 @@ hr {
 }
 
 .sidebar-sticky{
-    width: 25%;
+    width: 100%;
     height: 25vh; 
     min-height: 120px;
     overflow: auto;
@@ -1898,10 +1900,6 @@ hr {
     margin-right: auto;
 }
 
-.article_page{
-    padding: 2rem;
-}
-
 .ArticleCopy{
     font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
     /* width: 80%; */
@@ -2184,1299 +2182,6 @@ a .title-container span {
 
 
 
-/* media queries */
-/* @media (min-width: 200px) {
-    .mobile-general-style {
-        padding: 50px !important;
-      } */
-
-
-    /* banner
-    .banner_div{
-        padding: 2rem;
-        height: 100vh !important;
-    }
-    .banner_title_big{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        /* line-height: 90px;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-align: center;
-        align-items: center;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    .banner_subtitle{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 10px;
-        line-height: 15px;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-align: center;
-        align-items: center;
-        letter-spacing: 0.05em;
-        color: #FFFFFF;
-    }
-
-    .arrowbutton_down_withtext_animated{
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-pack: center;
-        justify-content: center;
-        font-size: 11px;
-    }
-
-    /* cards
-    .card_section_container{
-        text-align: center;
-        padding: 2rem;
-    }
-
-    .card-img-top .badges {
-        position: absolute;
-        top: 0;
-        padding: 1rem 1.25rem;
-    }
-
-    /* dropdown
-    .dropdown-toggle {
-        cursor: pointer;
-    }
-    .dropdown-toggle {
-        white-space: nowrap;
-    }
-    .dropdown-menu {
-        padding: 10px 16px;
-        font-size: 14px;
-        margin-top: 5px;
-        border: none;
-        box-shadow: 0 2px 25px rgba(0,0,0,0.07);
-    }
-    .dropdown-toggle::after {
-        transform: rotate(45deg);
-    }
-    .dropdown-toggle::after, .dropup .dropdown-toggle::after {
-        content: '';
-        width: 4px;
-        height: 4px;
-        vertical-align: initial;
-        margin-left: 0.5rem;
-        vertical-align: middle;
-        border: none;
-        border-right: 1px solid;
-        border-bottom: 1px solid;
-    }
-
-    .no-caret::after {
-        display: none !important;
-    }
-
-
-    
-    .dropdown-header {
-        padding-left: 0;
-        padding-right: 0;
-        letter-spacing: 1px;
-        font-size: 0.8325rem;
-        font-weight: 500;
-        color: #757575;
-        text-transform: uppercase;
-    }
-    .dropdown-item {
-        display: block;
-        width: 100%;
-        padding: .25rem 1.5rem;
-        clear: both;
-        font-weight: 400;
-        color: #212529;
-        text-align: inherit;
-        white-space: nowrap;
-        background-color: transparent;
-        border: 0;
-        padding-left: 0;
-        padding-right: 0;
-        color: #999;
-        background-color: transparent;
-        opacity: .8;
-    }
-
-
-    /* buttons
-    .card_button_ondarkoverlay{
-        font-size: 12px;
-        font-weight: 400;
-    }
-
-    .btn-round{
-        border-radius: 10rem;
-    }
-
-    /* volume
-    .volume_page{
-        padding: 2rem;
-        /* height: 100vh;
-    }
-
-    .navbar_left_sticky_box_container{
-        display: none;
-    }
-    
-    /* masonry images
-    .masonry{
-        margin: 1.5em 0;
-        padding: 0;
-        -moz-column-gap: 1.5em;
-        -webkit-column-gap: 1.5em;
-        column-gap: 1.5em;
-        font-size: .85em;
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-    }
-
-    .masonry-column-3{
-        margin: 1.5em 0;
-        padding: 0;
-        -moz-column-gap: 1.5em;
-        -webkit-column-gap: 1.5em;
-        column-gap: 1.5em;
-        font-size: .85em;
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        height: unset;
-    }
-
-    /* cover
-    .portalpage_banner_image{
-        background-size: cover;
-        background-position: 50% 50%;
-        height: 75vh;
-    }
-
-    .main_page_banner_image{
-        background-size: contain;
-        height: 75vh;
-    }
-
-    .volumetag_big_numberonly{
-        font-family: Roboto;
-        font-size: 15px;
-        line-height: 0px; 
-        letter-spacing: 0.1em;
-        color: #FFFFFF;
-        text-transform: uppercase;
-        width: -webkit-fit-content;
-        width: -moz-fit-content;
-        width: fit-content;
-        padding: 1rem;
-    }
-
-    .banner_header_onimage{
-        background-color: #0000009e;
-        display: inline;
-        line-height: 4rem;
-        font-family: Frank Ruhl Libre;
-        font-weight: 500;
-        font-size: 35px;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 0.5rem;
-    }
-
-    .banner_header_ondarkerimage{
-        display: inline;
-        line-height: 3rem;
-        font-family: Frank Ruhl Libre;
-        font-weight: 500;
-        font-size: 50px !important;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 0.5rem;
-    }
-
-    /* video
-    .video-wrapper{
-        position: relative;
-        display: block;
-        width: 100%;
-        padding: 0;
-        overflow: hidden;
-    }
-
-    .video-container{
-        margin: auto;
-        width: 100%;
-    }
-
-    /* article
-    .article-container{
-        width: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .article_page{
-        padding: 0rem;
-    }
-
-    /* cover without search bar
-    .volumetag_big_volumename{
-        font-family: Roboto;
-        font-size: 9px !important;
-        line-height: 20px;
-        letter-spacing: 0.1em;
-        color: #FFFFFF;
-        text-transform: uppercase;
-        width: -webkit-fit-content;
-        width: -moz-fit-content;
-        width: fit-content;
-        padding: 10px;
-    }
-
-    .banner_subheader_onimage{
-        color: white;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 13px;
-        /* line-height: 30px;
-        -ms-flex-align: center;
-        align-items: center;
-        letter-spacing: 0.05em;
-        background-color: #0000009e;
-        display: inline;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .banner_subheader_ondarkerimage{
-        display: none;
-
-        color: white;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        /* line-height: 0px;
-        -ms-flex-align: center;
-        align-items: center;
-        letter-spacing: 0.05em;
-        /* display: inline; 
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .item-carousel{
-        height: 100px;
-    }
-
-    .nav-mobile{
-        display: -ms-flexbox;
-        display: flex;
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    /* navbar mobile
-    .mobile-menu-item{
-        padding: 0 0px;
-        display: block;
-    }
-
-    .nav-icon-mobile {
-        justify-content: space-between;
-    }
-
-    .image-wrapper{
-        width: 100%;
-        float: left;
-        padding-right: 0rem;
-        padding-bottom: 10px;
-    }
-
-    .article_imagebutton_inline{
-        width: 100%;
-        height: 100%;
-        -o-object-fit: cover;
-        object-fit: cover;
-    }
-
-
-}
-
-/*
-@media (min-width: 576px) {
-    .mobile-general-style {
-        /* padding: 50px !important; 
-      }
-
-    /* banner 
-    .banner_div{
-        padding: 5rem;
-        height: 100vh !important;
-    }
-
-    .banner_title_big{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 60px;
-        line-height: 60px;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-align: center;
-        align-items: center;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .banner_subtitle{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 13px;
-        line-height: 15px;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-align: center;
-        align-items: center;
-        letter-spacing: 0.05em;
-        color: #FFFFFF;
-    }
-
-    .arrowbutton_down_withtext_animated{
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-pack: center;
-        justify-content: center;
-        font-size: 17px;
-    }
-
-    /* cards
-    .card_section_container{
-        text-align: center;
-        padding: 2rem;
-    }
-
-    /* buttons
-    .card_button_ondarkoverlay{
-        font-size: 12px;
-        font-weight: 400;
-    }
-
-    /* volume
-    .volume_page{
-        padding: 2rem;
-        /* height: 100vh;
-    }
-
-    .navbar_left_sticky_box_container{
-        display: none;
-    }
-    
-    /* masonry images
-    .masonry{
-        margin: 1.5em 0;
-        padding: 0;
-        -moz-column-gap: 1.5em;
-        -webkit-column-gap: 1.5em;
-        column-gap: 1.5em;
-        font-size: .85em;
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-    }
-
-    .masonry-column-3{
-        margin: 1.5em 0;
-        padding: 0;
-        -moz-column-gap: 1.5em;
-        -webkit-column-gap: 1.5em;
-        column-gap: 1.5em;
-        font-size: .85em;
-        -webkit-column-count: 1;
-        -moz-column-count: 1;
-        column-count: 1;
-        height: unset;
-    }
-
-    /* cover
-    .portalpage_banner_image{
-        background-size: cover;
-        height: 75vh;
-        background-position: 50% 50%;
-    }
-
-    .main_page_banner_image{
-        background-size: contain;
-        height: 75vh;
-    }
-
-    .volumetag_big_numberonly{
-        font-family: Roboto;
-        font-size: 40px;
-        line-height: 30px;
-        letter-spacing: 0.1em;
-        color: #FFFFFF;
-        text-transform: uppercase;
-        width: -webkit-fit-content;
-        width: -moz-fit-content;
-        width: fit-content;
-        padding: 1.5rem;
-    }
-
-    .banner_header_onimage{
-        background-color: #0000009e;
-        display: inline;
-        line-height: 8.5rem;
-        font-family: Frank Ruhl Libre;
-        font-weight: 500;
-        font-size: 100px;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 0.5rem;
-    }
-
-    .banner_header_ondarkerimage{
-        display: inline;
-        line-height: 8.5rem;
-        font-family: Frank Ruhl Libre;
-        font-weight: 500;
-        font-size: 100px !important;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 0.5rem;
-    }
-
-    /* video
-    .video-wrapper{
-        position: relative;
-        display: block;
-        width: 100%;
-        padding: 0;
-        overflow: hidden;
-    }
-
-    .video-container{
-        margin: auto;
-        width: 50%;
-    }
-
-    /* article
-    .article-container{
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .article_page{
-        padding: 2rem;
-    }
-
-    /* cover without search bar
-    .volumetag_big_volumename{
-        font-family: Roboto;
-        font-size: 12px !important;
-        line-height: 20px;
-        letter-spacing: 0.1em;
-        color: #FFFFFF;
-        text-transform: uppercase;
-        width: -webkit-fit-content;
-        width: -moz-fit-content;
-        width: fit-content;
-        padding: 10px !important;
-    }
-
-    .banner_subheader_onimage{
-        color: white;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 30px;
-        -ms-flex-align: center;
-        align-items: center;
-        letter-spacing: 0.05em;
-        background-color: #0000009e;
-        display: inline;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .banner_subheader_ondarkerimage{
-        color: white;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 30px;
-        -ms-flex-align: center;
-        align-items: center;
-        letter-spacing: 0.05em;
-        display: inline;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        max-width: 50px !important;
-    }
-
-    .item-carousel{
-        height: 100px;
-    }
-
-    .nav-mobile{
-        display: -ms-flexbox;
-        display: flex;
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-
-    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-        color: #B69530;
-        background-color: #000;
-    }
-
-    /* navbar mobile 
-    .mobile-menu-item{
-        padding: 0 50px;
-        display: none;
-    }
-
-    .nav-icon-mobile {
-        justify-content: space-between;
-    }
-
-    .image-wrapper{
-        width: 100%;
-        float: left;
-        padding-right: 2rem;
-        padding-bottom: 10px;
-    }
-
-    .article_imagebutton_inline{
-        width: 100%;
-        height: 100%;
-        -o-object-fit: cover;
-        object-fit: cover;
-    }
-
-
-}
-  
-
-/* @media (min-width: 768px) {
-    .mobile-general-style {
-        padding: 50px !important;
-      } */
-
-    /* banner
-    .banner_div{
-        padding: 5rem;
-        height: 100vh !important;
-    }
-
-    .banner_title_big{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 75px;
-        line-height: 90px;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-align: center;
-        align-items: center;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .banner_subtitle{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 17px;
-        line-height: 25px;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-align: center;
-        align-items: center;
-        letter-spacing: 0.05em;
-        color: #FFFFFF;
-    }
-
-    .arrowbutton_down_withtext_animated{
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-pack: center;
-        justify-content: center;
-        font-size: 17px;
-    }
-
-    /* cards
-    .card_section_container{
-        text-align: left;
-        padding: 3rem;
-    }
-
-    /* buttons
-    .card_button_ondarkoverlay{
-        font-size: 15px;
-        font-weight: 600;
-    }
-
-    /* volume
-    .volume_page{
-        padding: 2rem;
-        /* height: 100vh; 
-    }
-
-    .navbar_left_sticky_box_container{
-        display: block;
-    }
-    
-    /* masonry images 
-    .masonry{
-        margin: 1.5em 0;
-        padding: 0;
-        -moz-column-gap: 1.5em;
-        -webkit-column-gap: 1.5em;
-        column-gap: 1.5em;
-        font-size: .85em;
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
-    }
-
-    .masonry-column-3{
-        margin: 1.5em 0;
-        padding: 0;
-        -moz-column-gap: 1.5em;
-        -webkit-column-gap: 1.5em;
-        column-gap: 1.5em;
-        font-size: .85em;
-        -webkit-column-count: 3;
-        -moz-column-count: 3;
-        column-count: 3;
-        height: unset;
-    }
-
-    /* cover
-    .portalpage_banner_image{
-        background-size: cover;
-        height: 100%;
-        background-position: 50% 50%;
-    }
-
-    .main_page_banner_image{
-        background-size: contain;
-        height: 75vh;
-    }
-
-    .volumetag_big_numberonly{
-        font-family: Roboto;
-        font-size: 40px;
-        line-height: 30px;
-        letter-spacing: 0.1em;
-        color: #FFFFFF;
-        text-transform: uppercase;
-        width: -webkit-fit-content;
-        width: -moz-fit-content;
-        width: fit-content;
-        padding: 1.5rem;
-    }
-
-    .banner_header_onimage{
-        background-color: #0000009e;
-        display: inline;
-        line-height: 8.5rem;
-        font-family: Frank Ruhl Libre;
-        font-weight: 500;
-        font-size: 100px;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 0.5rem;
-    }
-
-    .banner_header_ondarkerimage{
-        display: inline;
-        line-height: 8.5rem;
-        font-family: Frank Ruhl Libre;
-        font-weight: 500;
-        font-size: 100px;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 0.5rem;
-    }
-
-    /* video
-    .video-wrapper{
-        position: relative;
-        display: block;
-        width: 100%;
-        padding: 0;
-        overflow: hidden;
-    }
-
-    .video-container{
-        margin: auto;
-        width: 75%;
-    }
-
-    /* article
-    .article-container{
-        width: 75%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .article_page{
-        padding: 0rem;
-    }
-
-    /* cover without search bar
-    .volumetag_big_volumename{
-        font-family: Roboto;
-        font-size: 15px !important;
-        line-height: 20px;
-        letter-spacing: 0.1em;
-        color: #FFFFFF;
-        text-transform: uppercase;
-        width: -webkit-fit-content;
-        width: -moz-fit-content;
-        width: fit-content;
-        padding: 0.2rem;
-    }
-
-    .banner_subheader_onimage{
-        color: white;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 25px;
-        line-height: 30px;
-        -ms-flex-align: center;
-        align-items: center;
-        letter-spacing: 0.05em;
-        background-color: #0000009e;
-        display: inline;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .banner_subheader_ondarkerimage{
-        color: white;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 30px;
-        -ms-flex-align: center;
-        align-items: center;
-        letter-spacing: 0.05em;
-        display: inline;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        max-width: 100px !important;
-    }
-
-    .item-carousel{
-        height: 100px;
-    }
-
-    .nav-mobile{
-        display: -ms-flexbox;
-        display: flex;
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    /* navbar mobile
-    .mobile-menu-item{
-        padding: 0 50px;
-        display: none;
-    }
-
-    .nav-icon-mobile {
-        justify-content: end;
-    }
-
-    .image-wrapper{
-        width: 50%;
-        float: left;
-        padding-right: 2rem;
-        padding-bottom: 10px;
-    }
-
-    .article_imagebutton_inline{
-        width: 100%;
-        height: 100%;
-        -o-object-fit: cover;
-        object-fit: cover;
-    }
-
-
-}
-  
-@media (min-width: 992px) {
-    /* banner
-    .banner_div{
-        padding: 5rem;
-        height: 100vh !important;
-    }
-
-    .banner_title_big{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 75px;
-        line-height: 80px90px;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-align: center;
-        align-items: center;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .banner_subtitle{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 17px;
-        line-height: 25px;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-align: center;
-        align-items: center;
-        letter-spacing: 0.05em;
-        color: #FFFFFF;
-    }
-
-    .arrowbutton_down_withtext_animated{
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-pack: center;
-        justify-content: center;
-        font-size: 17px;
-    }
-
-    /* cards
-    .card_section_container{
-        text-align: left;
-        padding: 3rem;
-    }
-
-    /* buttons
-    .card_button_ondarkoverlay{
-        font-size: 15px;
-        font-weight: 600;
-    }
-
-    /* volume
-    .volume_page{
-        padding: 5rem;
-        /* height: 100vh;
-    }
-
-    .navbar_left_sticky_box_container{
-        display: block;
-    }
-    
-    /* masonry images
-    .masonry{
-        margin: 1.5em 0;
-        padding: 0;
-        -moz-column-gap: 1.5em;
-        -webkit-column-gap: 1.5em;
-        column-gap: 1.5em;
-        font-size: .85em;
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
-    }
-
-    .masonry-column-3{
-        margin: 1.5em 0;
-        padding: 0;
-        -moz-column-gap: 1.5em;
-        -webkit-column-gap: 1.5em;
-        column-gap: 1.5em;
-        font-size: .85em;
-        -webkit-column-count: 3;
-        -moz-column-count: 3;
-        column-count: 3;
-        height: -webkit-fill-available;
-    }
-
-    /* cover
-    .portalpage_banner_image{
-        background-size: cover;
-        height: 100%;
-        background-position: 50% 50%;
-    }
-
-    .main_page_banner_image{
-        background-size: contain;
-        height: 75vh;
-    }
-
-    .volumetag_big_numberonly{
-        font-family: Roboto;
-        font-size: 40px;
-        line-height: 30px;
-        letter-spacing: 0.1em;
-        color: #FFFFFF;
-        text-transform: uppercase;
-        width: -webkit-fit-content;
-        width: -moz-fit-content;
-        width: fit-content;
-        padding: 1.5rem;
-    }
-
-    .banner_header_onimage{
-        background-color: #0000009e;
-        display: inline;
-        line-height: 8.5rem;
-        font-family: Frank Ruhl Libre;
-        font-weight: 500;
-        font-size: 100px;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 0.5rem;
-    }
-
-    .banner_header_ondarkerimage{
-        display: inline;
-        line-height: 8.5rem;
-        font-family: Frank Ruhl Libre;
-        font-weight: 500;
-        font-size: 100px;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 0.5rem;
-    }
-
-    /* video
-    .video-wrapper{
-        position: relative;
-        display: block;
-        width: 100%;
-        padding: 0;
-        overflow: hidden;
-    }
-
-    .video-container{
-        margin: auto;
-        width: 50%;
-    }
-
-    /* article
-    .article-container{
-        width: 75%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .article_page{
-        padding: 2rem;
-    }
-
-    /* cover without search bar
-    .volumetag_big_volumename{
-        font-family: Roboto;
-        font-size: 15px !important;
-        line-height: 20px;
-        letter-spacing: 0.1em;
-        color: #FFFFFF;
-        text-transform: uppercase;
-        width: -webkit-fit-content;
-        width: -moz-fit-content;
-        width: fit-content;
-        padding: 1rem;
-    }
-
-    .banner_subheader_onimage{
-        color: white;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 30px;
-        -ms-flex-align: center;
-        align-items: center;
-        letter-spacing: 0.05em;
-        background-color: #0000009e;
-        display: inline;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .banner_subheader_ondarkerimage{
-        color: white;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 30px;
-        -ms-flex-align: center;
-        align-items: center;
-        letter-spacing: 0.05em;
-        display: inline;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .item-carousel{
-        height: 130px;
-    }
-
-    .nav-mobile{
-        display: -ms-flexbox;
-        display: flex;
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    /* navbar mobile
-    .mobile-menu-item{
-        padding: 0 50px;
-        display: block;
-    }
-
-    .nav-icon-mobile {
-        justify-content: end;
-    }
-
-    .image-wrapper{
-        width: 50%;
-        float: left;
-        padding-right: 2rem;
-        padding-bottom: 10px;
-    }
-
-    .article_imagebutton_inline{
-        width: 100%;
-        height: 100%;
-        -o-object-fit: cover;
-        object-fit: cover;
-    }
-
-
-}
-  */
-/* @media (min-width: 1200px) {
-  
-    .banner_div{
-        padding: 5rem;
-        height: 100vh !important;
-    }
-
-    .banner_title_big{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 75px;
-        line-height: 90px;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-align: center;
-        align-items: center;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    .banner_subtitle{
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 17px;
-        line-height: 25px;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-align: center;
-        align-items: center;
-        letter-spacing: 0.05em;
-        color: #FFFFFF;
-    }
-
-    .arrowbutton_down_withtext_animated{
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-pack: center;
-        justify-content: center;
-        font-size: 17px;
-    }
-
-    .card_section_container{
-        text-align: left;
-        padding: 3rem;
-    }
-
-
-    .card_button_ondarkoverlay{
-        font-size: 15px;
-        font-weight: 600;
-    }
-
-    .volume_page{
-        padding: 5rem;
-    }
-
-    .navbar_left_sticky_box_container{
-        display: block;
-    }
-    
-
-    .masonry{
-        margin: 1.5em 0;
-        padding: 0;
-        -moz-column-gap: 1.5em;
-        -webkit-column-gap: 1.5em;
-        column-gap: 1.5em;
-        font-size: .85em;
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
-    }
-
-    .masonry-column-3{
-        margin: 1.5em 0;
-        padding: 0;
-        -moz-column-gap: 1.5em;
-        -webkit-column-gap: 1.5em;
-        column-gap: 1.5em;
-        font-size: .85em;
-        -webkit-column-count: 3;
-        -moz-column-count: 3;
-        column-count: 3;
-        height: -webkit-fill-available;
-    }
-
-
-    .portalpage_banner_image{
-        background-size: cover;
-        height: 100%;
-        background-position: 50% 50%;
-    }
-
-    .main_page_banner_image{
-        background-size: contain;
-        height: 75vh;
-    }
-
-    .volumetag_big_numberonly{
-        font-family: Roboto;
-        font-size: 40px;
-        line-height: 30px;
-        letter-spacing: 0.1em;
-        color: #FFFFFF;
-        text-transform: uppercase;
-        width: -webkit-fit-content;
-        width: -moz-fit-content;
-        width: fit-content;
-        padding: 1.5rem;
-    }
-
-    .banner_header_onimage{
-        background-color: #0000009e;
-        display: inline;
-        line-height: 9.5rem;
-        font-family: Frank Ruhl Libre;
-        font-weight: 500;
-        font-size: 100px;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 0.5rem;
-    }
-
-    .banner_header_ondarkerimage{
-        display: inline;
-        line-height: 8.5rem;
-        font-family: Frank Ruhl Libre;
-        font-weight: 500;
-        font-size: 100px;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 0.5rem;
-    }
-
-    .item-carousel{
-        height: 150px;
-    }
-
-    .nav-mobile{
-        display: none;
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .mobile-menu-item{
-        padding: 0 50px;
-        display: block;
-    }
-
-    .nav-icon-mobile {
-        justify-content: end;
-    }
-
-    .image-wrapper{
-        width: 30%;
-        float: left;
-        padding-right: 2rem;
-        padding-bottom: 10px;
-    }
-
-    .article_imagebutton_inline{
-        width: 100%;
-        height: 100%;
-        -o-object-fit: cover;
-        object-fit: cover;
-    }
-
-
-} */
-/*# sourceMappingURL=custom.css.map */
-
-
-
-
-/*new media queries*/
-
-/* .volumetag_big_volumename{
-    font-family: Roboto;
-    font-size: 15px !important;
-    line-height: 20px;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    padding: 1rem;
-} */
-
-
-
-
-.breadcrumb-top
-{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 2;
-}
 
 .mainNavbar
 {
@@ -3509,6 +2214,16 @@ a .title-container span {
 
    @media (min-width: 1281px) {
   
+    /*breadcrumbs*/
+    .breadcrumb-sticky
+    {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+
+
     .landing_logo{
         -o-object-fit: contain;
         object-fit: contain;
@@ -3527,6 +2242,26 @@ a .title-container span {
         /* padding-bottom: 20px; */
     }
 
+    /*ARTICLE PAGE COMPONENTS*/
+    .article_section_title_onwhite
+    {
+        font-size: 2vw;
+    }
+
+    .article-paragraph
+    {
+        margin: 7vh 5vw 0vh 5vw;
+    }
+
+    .media-caption-text
+    {
+        font-family: Roboto;
+        font-weight: bolder;
+        font-size: 12px;
+        line-height: 15px;
+        padding: 7px 6px 7px 6px;
+    }
+
     /* BANNER */
     /* page banner + image */
     .banner_div{
@@ -3535,14 +2270,7 @@ a .title-container span {
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .breadcrumb-bottom
-    {
-        display: none;
-    }
-
-    .mobile-general-style {
-        padding: 50px !important;
-    } */
+    
 
     /* cover, landing */
     .banner_title_big
@@ -3711,10 +2439,6 @@ a .title-container span {
         width: 75%;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .article_page{
-        padding: 0rem;
     }
 
     /* cover without search bar */
@@ -3841,6 +2565,7 @@ a .title-container span {
         padding-right: 1rem;
     }
 
+    /*breadcrumbs*/
     .breadcrumb-item:not(:first-child):not(:last-child) {
         display: block ;
       }
@@ -3926,6 +2651,15 @@ a .title-container span {
   
   @media (min-width: 1025px) and (max-width: 1280px) {
     
+    /*breadcrumbs*/
+    .breadcrumb-sticky
+    {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+    
     .landing_logo{
         -o-object-fit: contain;
         object-fit: contain;
@@ -3944,6 +2678,26 @@ a .title-container span {
         /* padding-bottom: 20px; */
     }
 
+    /*ARTICLE PAGE COMPONENTS*/
+    .article_section_title_onwhite
+    {
+        font-size: 2vw;
+    }
+
+    .article-paragraph
+    {
+        margin: 5vh 5vw 0vh 5vw;
+    }
+
+    .media-caption-text
+    {
+        font-family: Roboto;
+        font-weight: bolder;
+        font-size: 12px;
+        line-height: 15px;
+        padding: 7px 6px 7px 6px;
+    }
+
     /* BANNER */
     /* page banner + image */
     .banner_div{
@@ -3952,15 +2706,6 @@ a .title-container span {
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .breadcrumb-bottom
-    {
-        display: none;
-    }
-
-    .mobile-general-style {
-        padding: 50px !important;
-    } */
-
     /* cover, landing */
     .banner_title_big
     {
@@ -4128,10 +2873,6 @@ a .title-container span {
         width: 75%;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .article_page{
-        padding: 0rem;
     }
 
     /* cover without search bar */
@@ -4343,6 +3084,15 @@ a .title-container span {
   
   @media (min-width: 768px) and (max-width: 1024px) {
 
+    /*breadcrumbs*/
+    .breadcrumb-sticky
+    {
+        position: -webkit-sticky;
+        position: sticky;
+        bottom: 0;
+        z-index: 2;
+    }
+
     .landing_logo{
         -o-object-fit: contain;
         object-fit: contain;
@@ -4361,6 +3111,26 @@ a .title-container span {
         /* padding-bottom: 20px; */
     }
 
+    /*ARTICLE PAGE COMPONENTS*/
+    .article_section_title_onwhite
+    {
+        font-size: 4.5vw;
+    }
+
+    .article-paragraph
+    {
+        margin: 8vh 5vw 0vh 5vw;
+    }
+
+    .media-caption-text
+    {
+        font-family: Roboto;
+        font-weight: bolder;
+        font-size: 12px;
+        line-height: 15px;
+        padding: 7px 6px 7px 6px;
+    }
+
     /* BANNER */
     /* page banner + image */
     .banner_div{
@@ -4369,14 +3139,6 @@ a .title-container span {
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .breadcrumb-bottom
-    {
-        display: none;
-    }
-
-    .mobile-general-style {
-        padding: 50px !important;
-    } */
 
     /* cover, landing */
     .banner_title_big
@@ -4545,10 +3307,6 @@ a .title-container span {
         width: 75%;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .article_page{
-        padding: 0rem;
     }
 
     /* cover without search bar */
@@ -4778,6 +3536,37 @@ a .title-container span {
         /* padding-bottom: 20px; */
     }
 
+    /*ARTICLE PAGE COMPONENTS*/
+    .article_section_title_onwhite
+    {
+        font-size: 2vw;
+    }
+
+    .article-paragraph
+    {
+        margin: 8vh 5vw 0vh 5vw;
+        
+    }
+
+    .media-caption-text
+    {
+        font-family: Roboto;
+        font-weight: bolder;
+        font-size: 12px;
+        line-height: 15px;
+        padding: 7px 6px 7px 6px;
+    }
+
+    /* BANNER */
+    /* page banner + image */
+    .banner_div{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        padding: 11vw;
+        /* height: 100vh !important; */
+    }
+
     /* BANNER */
     /* page banner + image */
     .banner_div{
@@ -4786,14 +3575,6 @@ a .title-container span {
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .breadcrumb-bottom
-    {
-        display: none;
-    }
-
-    .mobile-general-style {
-        padding: 50px !important;
-    } */
 
     /* cover, landing */
     .banner_title_big
@@ -4962,10 +3743,6 @@ a .title-container span {
         width: 75%;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .article_page{
-        padding: 0rem;
     }
 
     /* cover without search bar */
@@ -5194,6 +3971,27 @@ a .title-container span {
         text-transform: capitalize !important;
     }
 
+    /*ARTICLE PAGE COMPONENTS*/
+    .article_section_title_onwhite
+    {
+        font-size: 4.5vw;
+    }
+
+    .article-paragraph
+    {
+        margin: 8vh 5vw 0vh 5vw;
+        
+    }
+
+    .media-caption-text
+    {
+        font-family: Roboto;
+        font-weight: bolder;
+        font-size: 12px;
+        line-height: 15px;
+        padding: 7px 6px 7px 6px;
+    }
+
     /* BANNER */
     /* page banner + image */
     .banner_div{
@@ -5203,30 +4001,6 @@ a .title-container span {
         padding: 11vw;
         /* height: 100vh !important; */
     }
-
-    /*breadcrumbs*/
-    .breadcrumb-bottom
-    {
-        display: block;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
-
-    .breadcrumb-top
-    {
-        display: none;
-    }
-
-    .mobile-container
-    {
-        padding: 25px 50px 25px 50px !important;
-    }
-
-    .mobile-general-style {
-        padding: 50px !important;
-      } */
-
 
     /* banner */
     /* .banner_div{
@@ -5473,10 +4247,6 @@ a .title-container span {
         width: auto;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .article_page{
-        padding: 0rem;
     }
 
     /* cover without search bar */
@@ -5710,6 +4480,32 @@ a .title-container span {
         text-transform: capitalize !important;
     }
 
+    /*ARTICLE PAGE COMPONENTS*/
+    .article_section_title_onwhite
+    {
+        font-size: 5.5vw;
+    }
+
+    .article-paragraph
+    {
+        margin: 8vh 3vw 0vh 3vw;
+        
+    }
+
+    .article_paragraphtext
+    {
+        font-size: 2.5vh;
+    }
+
+    .media-caption-text
+    {
+        font-family: Roboto;
+        font-weight: bolder;
+        font-size: 10px;
+        line-height: 12px;
+        padding: 7px 6px 7px 6px;
+    }
+
     /* BANNER */
     /* page banner + image */
     .banner_div{
@@ -5719,30 +4515,6 @@ a .title-container span {
         padding: 11vw;
         /* height: 100vh !important; */
     }
-
-    /*breadcrumbs*/
-    .breadcrumb-bottom
-    {
-        display: block;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
-
-    .breadcrumb-top
-    {
-        display: none;
-    }
-
-    .mobile-container
-    {
-        padding: 25px 50px 25px 50px !important;
-    }
-
-    .mobile-general-style {
-        padding: 50px !important;
-      } */
-
 
     /* banner */
     /* .banner_div{
@@ -5988,10 +4760,6 @@ a .title-container span {
         width: auto;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .article_page{
-        padding: 0rem;
     }
 
     /* cover without search bar */
