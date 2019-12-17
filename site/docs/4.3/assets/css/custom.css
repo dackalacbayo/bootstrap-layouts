@@ -550,6 +550,21 @@ hr {
 .lead-9 {
     font-size: 4.6875rem !important; }
 
+.vw-1 {
+    font-size: 1vw !important; }    
+
+.vw-2 {
+    font-size: 2vw !important; }
+
+.vw-3 {
+    font-size: 3vw !important; }  
+
+.vw-4 {
+    font-size: 4vw !important; }  
+
+.vw-5 {
+    font-size: 5vw !important; }  
+
 .bt-2, .border-top-2 {
     border-top: 2px solid #f1f2f3;
 } 
@@ -770,7 +785,7 @@ hr {
 }
 
 .sidebar-sticky{
-    width: 25%;
+    width: 100%;
     height: 25vh; 
     min-height: 120px;
     overflow: auto;
@@ -3491,7 +3506,7 @@ a .title-container span {
     display: flex;
     -ms-flex-pack: center;
     justify-content: center;
-    font-size: 17px;
+    font-size: 1.5vw;
 }
 
 .card_section_container
@@ -3508,6 +3523,21 @@ a .title-container span {
     */
 
    @media (min-width: 1281px) {
+    
+    .cover-button{
+        font-size: 1.5vw;
+        letter-spacing: 0.15em;
+    }
+
+    .cover-button-container{
+        justify-content: end;
+        display: flex;
+        margin: 1rem;
+    }
+    
+    .input-searchbar{
+        font-size: 1vw !important;
+    }
   
     .landing_logo{
         -o-object-fit: contain;
@@ -3519,10 +3549,10 @@ a .title-container span {
     /*COVER*/
     .font_cover_title
     {
-        font-size: 7vw;
+        font-size: 6vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 9vw;
+        line-height: 7vw;
         text-transform: capitalize !important;
         /* padding-bottom: 20px; */
     }
@@ -3564,7 +3594,7 @@ a .title-container span {
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
-        font-size: 2vw;
+        font-size: 1.5vw !important;
         line-height: 3vw;
         display: -ms-flexbox;
         display: flex;
@@ -3579,7 +3609,7 @@ a .title-container span {
         display: flex;
         -ms-flex-pack: center;
         justify-content: center;
-        font-size: 17px;
+        font-size: 1.5vw;
     }
 
     /* cards */
@@ -3658,7 +3688,7 @@ a .title-container span {
 
     .volumetag_big_numberonly{
         font-family: Roboto;
-        font-size: 4vw;
+        font-size: 2vw;
         line-height: 1vw;
         letter-spacing: 0.1em;
         color: #FFFFFF;
@@ -3736,8 +3766,8 @@ a .title-container span {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 2.5vw;
-        line-height: 30px;
+        font-size: 1.5vw;
+        line-height: 2vw;
         -ms-flex-align: center;
         align-items: center;
         letter-spacing: 0.05em;
@@ -3748,7 +3778,7 @@ a .title-container span {
 
     .banner_subheader_ondarkerimage{
         font-family: Roboto;
-        font-size: 2vw;
+        font-size: 1.5vw;
         color: white;
         font-weight: 100;
         max-width: 80%;
@@ -3925,6 +3955,20 @@ a .title-container span {
   */
   
   @media (min-width: 1025px) and (max-width: 1280px) {
+
+    .cover-button{
+        font-size: 1.5vw;
+        letter-spacing: 0.15em;
+    }
+
+    .cover-button-container{
+        justify-content: center;
+        display: flex;
+    }
+
+    .input-searchbar{
+        font-size: 1vw !important;
+    }
     
     .landing_logo{
         -o-object-fit: contain;
@@ -3981,7 +4025,7 @@ a .title-container span {
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
-        font-size: 2vw;
+        font-size: 1.5vw !important;
         line-height: 3vw;
         display: -ms-flexbox;
         display: flex;
@@ -3996,7 +4040,7 @@ a .title-container span {
         display: flex;
         -ms-flex-pack: center;
         justify-content: center;
-        font-size: 17px;
+        font-size: 1.5vw;
     }
 
     /* cards */
@@ -4343,6 +4387,20 @@ a .title-container span {
   
   @media (min-width: 768px) and (max-width: 1024px) {
 
+    .cover-button{
+        font-size: 1.5vw;
+        letter-spacing: 0.15em;
+    }
+
+    .cover-button-container{
+        justify-content: end;
+        display: flex;
+    }
+
+    .input-searchbar{
+        font-size: 1vw !important;
+    }
+
     .landing_logo{
         -o-object-fit: contain;
         object-fit: contain;
@@ -4353,10 +4411,10 @@ a .title-container span {
     /*COVER*/
     .font_cover_title
     {
-        font-size: 7vw;
+        font-size: 6vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 9vw;
+        line-height: 7vw;
         text-transform: capitalize !important;
         /* padding-bottom: 20px; */
     }
@@ -4391,14 +4449,14 @@ a .title-container span {
 
     .text-over-title
     {
-        font-size:  3vw;
+        font-size:  2vw;
     }
 
     .banner_subtitle{
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
-        font-size: 2vw;
+        font-size: 1.5vw !important;
         line-height: 3vw;
         display: -ms-flexbox;
         display: flex;
@@ -4413,7 +4471,7 @@ a .title-container span {
         display: flex;
         -ms-flex-pack: center;
         justify-content: center;
-        font-size: 17px;
+        font-size: 1.5vw;
     }
 
     /* cards */
@@ -4759,6 +4817,20 @@ a .title-container span {
   */
   
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .cover-button{
+        font-size: 1.5vw;
+        letter-spacing: 0.15em;
+    }
+
+    .cover-button-container{
+        justify-content: end;
+        display: flex;
+    }
+
+    .input-searchbar{
+        font-size: 1vw !important;
+    }
     
     .landing_logo{
         -o-object-fit: contain;
@@ -4770,10 +4842,10 @@ a .title-container span {
     /*COVER*/
     .font_cover_title
     {
-        font-size: 7vw;
+        font-size: 6vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 9vw;
+        line-height: 8vw;
         text-transform: capitalize !important;
         /* padding-bottom: 20px; */
     }
@@ -4808,14 +4880,14 @@ a .title-container span {
 
     .text-over-title
     {
-        font-size:  3vw;
+        font-size:  2vw;
     }
 
     .banner_subtitle{
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
-        font-size: 2vw;
+        font-size: 1.5vw !important;
         line-height: 3vw;
         display: -ms-flexbox;
         display: flex;
@@ -4823,6 +4895,7 @@ a .title-container span {
         align-items: center;
         letter-spacing: 0.05em;
         color: #FFFFFF;
+        justify-content: center;
     }
 
     .arrowbutton_down_withtext_animated{
@@ -4830,7 +4903,7 @@ a .title-container span {
         display: flex;
         -ms-flex-pack: center;
         justify-content: center;
-        font-size: 17px;
+        font-size: 1.5vw;
     }
 
     /* cards */
@@ -4909,8 +4982,8 @@ a .title-container span {
 
     .volumetag_big_numberonly{
         font-family: Roboto;
-        font-size: 4vw;
-        line-height: 1vw;
+        font-size: 2vw;
+        line-height: 0vw;
         letter-spacing: 0.1em;
         color: #FFFFFF;
         text-transform: uppercase;
@@ -5176,21 +5249,35 @@ a .title-container span {
   */
   
   @media (min-width: 481px) and (max-width: 767px) {
+
+    .cover-button{
+        font-size: 1.5vw;
+        letter-spacing: 0.15em;
+    }
+
+    .cover-button-container{
+        justify-content: end;
+        display: flex;
+    }
+
+    .input-searchbar{
+        font-size: 1vw !important;
+    }
     
     .landing_logo{
         -o-object-fit: contain;
         object-fit: contain;
         padding: 0 !important;
-        height: 20vh;
+        height: 40vh;
     }
 
     /*COVER*/
     .font_cover_title
     {
-        font-size: 9vw;
+        font-size: 6vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 6vh;
+        line-height: 8vw;
         text-transform: capitalize !important;
     }
 
@@ -5249,21 +5336,22 @@ a .title-container span {
 
     .text-over-title
     {
-        font-size: 4vw;
+        font-size: 2vw;
     }
 
     .banner_subtitle{
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
-        font-size: 10px;
-        line-height: 20px;
+        font-size: 1.5vw !important;
+        line-height: 2.5vw;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;
         align-items: center;
         letter-spacing: 0.07em;
         color: #FFFFFF;
+        justify-content: center;
     }
 
     .arrowbutton_down_withtext_animated{
@@ -5271,7 +5359,7 @@ a .title-container span {
         display: flex;
         -ms-flex-pack: center;
         justify-content: center;
-        font-size: 11px;
+        font-size: 1.5vw;
     }
 
     /* cards */
@@ -5411,7 +5499,7 @@ a .title-container span {
     .portalpage_banner_image{
         background-size: cover;
         background-position: 50% 50%;
-        height: 75vh;
+        height: 100%;
     }
 
     .main_page_banner_image{
@@ -5421,7 +5509,7 @@ a .title-container span {
 
     .volumetag_big_numberonly{
         font-family: Roboto;
-        font-size: 5vw;
+        font-size: 3vw;
         line-height: 0px;
         letter-spacing: 0.1em;
         color: #FFFFFF;
@@ -5435,10 +5523,10 @@ a .title-container span {
     .banner_header_onimage{
         background-color: #0000009e;
         display: inline;
-        line-height: 23vw;
+        line-height: 16vw;
         font-family: Frank Ruhl Libre;
         font-weight: 500;
-        font-size: 13vw;
+        font-size: 10vw;
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         padding: 0.5rem;
@@ -5692,6 +5780,21 @@ a .title-container span {
   */
   
   @media (min-width: 320px) and (max-width: 480px) {
+
+    .cover-button{
+        font-size: 3.5vw;
+        letter-spacing: 0.15em;
+    }
+
+    .cover-button-container{
+        justify-content: center;
+        display: flex;
+        margin: 1rem;
+    }
+
+    .input-searchbar{
+        font-size: 1vw !important;
+    }
     
     .landing_logo{
         -o-object-fit: contain;
@@ -5708,6 +5811,7 @@ a .title-container span {
         color: white;
         line-height: 6vh;
         text-transform: capitalize !important;
+        text-align: center;
     }
 
     /* BANNER */
@@ -5766,20 +5870,22 @@ a .title-container span {
     .text-over-title
     {
         font-size: 4vw;
+        text-align: center;
     }
 
     .banner_subtitle{
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
-        font-size: 10px;
-        line-height: 20px;
+        font-size: 4vw !important;
+        line-height: 5vw;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;
         align-items: center;
         letter-spacing: 0.07em;
         color: #FFFFFF;
+        text-align: center;
     }
 
     .arrowbutton_down_withtext_animated{
@@ -5787,7 +5893,7 @@ a .title-container span {
         display: flex;
         -ms-flex-pack: center;
         justify-content: center;
-        font-size: 11px;
+        font-size: 1.5vw;
     }
 
     /* cards */
@@ -5926,7 +6032,7 @@ a .title-container span {
     .portalpage_banner_image{
         background-size: cover;
         background-position: 50% 50%;
-        height: 75vh;
+        height: 100%;
     }
 
     .main_page_banner_image{
@@ -5953,7 +6059,7 @@ a .title-container span {
         line-height: 23vw;
         font-family: Frank Ruhl Libre;
         font-weight: 500;
-        font-size: 13vw;
+        font-size: 11vw;
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         padding: 0.5rem;
