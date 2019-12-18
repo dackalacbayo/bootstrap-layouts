@@ -2222,11 +2222,11 @@ a .title-container span {
 
 
 /* 
-    ##Device = TV
+    ##Device = TV - portrait
     ##Screen = 1921px to higher resolution TV screens
     */
 
-@media (min-width: 1921px) {
+@media (min-width: 1921px) and (orientation: landscape) {
     
     .cover-button{
         font-size: 1vw;
@@ -2672,6 +2672,459 @@ a .title-container span {
     }
     
   }
+
+
+/* 
+    ##Device = TV - portrait
+    ##Screen = 1921px to higher resolution TV screens
+    */
+
+    @media (min-width: 1921px) and (orientation: portrait) {
+    
+        .cover-button{
+            font-size: 1vw;
+            letter-spacing: 0.20em;
+        }
+    
+        .cover-button-container{
+            justify-content: end;
+            display: flex;
+            margin: 1rem;
+        }
+        
+        .input-searchbar{
+            font-size: 1vw !important;
+        }
+      
+        /*breadcrumbs*/
+        .breadcrumb-sticky
+        {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 2;
+        }
+    
+    
+        .landing_logo{
+            -o-object-fit: contain;
+            object-fit: contain;
+            padding: 0 !important;
+            height: 30vw;
+        }
+    
+        /*COVER*/
+        .font_cover_title
+        {
+            font-size: 5vw;
+            font-family: Frank Ruhl Libre;
+            color: white;
+            line-height: 6vw;
+            text-transform: capitalize !important;
+            /* padding-bottom: 20px; */
+        }
+    
+        /*ARTICLE PAGE COMPONENTS*/
+        .article_section_title_onwhite
+        {
+            font-size: 2vw;
+        }
+    
+        .article-paragraph
+        {
+            margin: 7vh 2vw 0vh 2vw;
+        }
+    
+        .media-caption-text
+        {
+            font-family: Roboto;
+            font-weight: bolder;
+            font-size: 12px;
+            line-height: 15px;
+            padding: 7px 6px 7px 6px;
+        }
+    
+        /* BANNER */
+        /* page banner + image */
+        .banner_div{
+            padding: 8vw;
+            /* height: 100vh !important; */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+    
+        /* cover, landing */
+        .banner_title_big
+        {
+            font-family: Frank Ruhl Libre;
+            color: white;
+            font-size: 65px !important;
+            line-height: 70px;
+            text-transform: capitalize !important;
+            padding-bottom: 20px;
+        }
+    
+        .text-over-title
+        {
+            font-size:  3vw;
+        }
+    
+        .banner_subtitle{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1.5vw !important;
+            line-height: 3vw;
+            /* display: -ms-flexbox; */
+            /* display: flex; */
+            -ms-flex-align: center;
+            align-items: center;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+        }
+    
+        .arrowbutton_down_withtext_animated{
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-pack: center;
+            justify-content: center;
+            font-size: 1.5vw;
+        }
+    
+        /* cards */
+        .card_section_container{
+            text-align: left;
+            padding: 3rem;
+        }
+    
+        /* buttons */
+        .card_button_ondarkoverlay{
+            font-size: 15px;
+            font-weight: 600;
+        }
+    
+        /* volume */
+        .volume_page{
+            padding: 2rem;
+            /* height: 100vh;   */
+        }
+    
+        .navbar_left_sticky_box_container{
+            display: block;
+        }
+        
+        /* masonry images  */
+        .masonry{
+            margin: 1.5em 0;
+            padding: 0;
+            -moz-column-gap: 1.5em;
+            -webkit-column-gap: 1.5em;
+            column-gap: 1.5em;
+            font-size: .85em;
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
+            column-count: 2;
+        }
+    
+        .masonry-column-3{
+            margin: 1.5em 0;
+            padding: 0;
+            -moz-column-gap: 1.5em;
+            -webkit-column-gap: 1.5em;
+            column-gap: 1.5em;
+            font-size: .85em;
+            -webkit-column-count: 3;
+            -moz-column-count: 3;
+            column-count: 3;
+            height: unset;
+        }
+    
+        .masonry-column-3-cover{
+            margin: 1.5em 0;
+            padding: 0;
+            -moz-column-gap: 1.5em;
+            -webkit-column-gap: 1.5em;
+            column-gap: 1.5em;
+            font-size: .85em;
+            -webkit-column-count: 3;
+            -moz-column-count: 3;
+            column-count: 3;
+            height: -webkit-fill-available;
+            height: 100%;
+        }
+    
+        /* cover */
+        .portalpage_banner_image{
+            background-size: cover;
+            height: 100%;
+            background-position: 50% 50%;
+        }
+    
+        .main_page_banner_image{
+            background-size: cover;
+            height: 100vh;
+        }
+    
+        .volumetag_big_numberonly{
+            font-family: Roboto;
+            font-size: 2vw;
+            line-height: 1vw;
+            letter-spacing: 0.1em;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            width: -webkit-fit-content;
+            width: -moz-fit-content;
+            width: fit-content;
+            padding: 1.5rem;
+        }
+    
+        .banner_header_onimage{
+            background-color: #0000009e;
+            display: inline;
+            line-height: 13vw;
+            font-family: Frank Ruhl Libre;
+            font-weight: 500;
+            font-size: 8vw;
+            color: #FFFFFF;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            padding: 0.5rem;
+        }
+    
+        .banner_header_ondarkerimage{
+            display: inline;
+            line-height: 20vw;
+            font-family: Frank Ruhl Libre;
+            font-weight: 500;
+            font-size: 11vw;
+            color: #FFFFFF;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            padding: 0.5rem;
+        }
+    
+        /* video */
+        .video-wrapper{
+            position: relative;
+            display: block;
+            width: 100%;
+            padding: 0;
+            overflow: hidden;
+        }
+    
+        .video-container{
+            margin: auto;
+            width: 75%;
+        }
+    
+        /* article */
+        .article-container{
+            width: 75%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        /* cover without search bar */
+        .volumetag_big_volumename{
+            font-family: Roboto;
+            font-size: 2vw;
+            line-height: 3vw;
+            letter-spacing: 0.1em;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            width: -webkit-fit-content;
+            width: -moz-fit-content;
+            width: fit-content;
+            padding: 1vw;
+        }
+    
+        .banner_subheader_onimage{
+            color: white;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.5vw;
+            line-height: 2vw;
+            -ms-flex-align: center;
+            align-items: center;
+            letter-spacing: 0.05em;
+            background-color: #0000009e;
+            display: inline;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+    
+        .banner_subheader_ondarkerimage{
+            font-family: Roboto;
+            font-size: 1.5vw;
+            color: white;
+            font-weight: 100;
+            max-width: 80%;
+            letter-spacing: 2px;
+        }
+    
+        .item-carousel{
+            height: 100px;
+        }
+    
+        .nav-mobile{
+            display: -ms-flexbox;
+            display: flex;
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1030;
+        }
+    
+        .nav-mobile-bottom-full-width {
+            display: none;
+        }
+    
+    
+        /* navbar mobile */
+        .mobile-menu-item{
+            padding: 0 50px;
+            display: none;
+        }
+    
+        .nav-icon-mobile {
+            justify-content: end;
+        }
+    
+        .image-wrapper{
+            width: 50%;
+            float: left;
+            padding-right: 2rem;
+            padding-bottom: 10px;
+        }
+    
+        .article_imagebutton_inline{
+            width: 100%;
+            height: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+    
+        .img-middle-right-overlay{
+            position: absolute;
+            top: 25%;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            /* left: 0; */
+            /* padding: 1rem; */
+        }
+    
+        .font-title-frank {
+            font-family: Frank Ruhl Libre;
+            color: #FFFFFF;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            line-height: 40px;
+        }
+    
+        /* fullwidth with textoverlay */
+        .banner_header_onimage_right{
+            background-color: #0000009e;
+            display: inline;
+            line-height: 4.5rem;
+            font-family: Frank Ruhl Libre;
+            font-weight: 500;
+            font-size: 42px;
+            color: #FFFFFF;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            padding: 0.5rem;
+        }
+    
+        .image_bottom_text{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            height: 100%;
+            -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+            width: 160px !important;
+            -o-object-fit: cover;
+            object-fit: cover;
+            padding-right: 1rem;
+        }
+    
+        /*breadcrumbs*/
+        .breadcrumb-item:not(:first-child):not(:last-child) {
+            display: block ;
+          }
+        
+        .breadcrumb-item-icon:not(:first-child):not(:last-child) {
+            display: block ;
+        }
+    
+        #button-scroll {
+            display: inline-block;
+            background-color: #000000;
+            color: #B69530;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            border-radius: 50%;
+            position: fixed;
+            bottom: 50px;
+            right: 30px;
+            transition: background-color .3s, opacity .5s, visibility .5s;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 1000;
+          }
+          
+          #button-scroll:hover {
+            cursor: pointer;
+            background-color: #000000ab;
+          }
+          #button-scroll:active {
+            background-color: #000000ab;
+          }
+          #button-scroll.show {
+            opacity: 1;
+            visibility: visible;
+          }
+          .timeline-horizontal {
+            flex-direction: column;
+        }
+        .timeline-horizontal .timeline-item::before {
+            top: -1.5rem;
+            left: 0.75rem;
+            
+        }
+    
+        .timeline-horizontal .timeline-item {
+            padding: 1rem 0;
+            padding-left: 2.5rem;
+        }
+        .timeline-horizontal::before {
+            left: 0;
+            bottom: auto;
+            right: 0;
+            width: 100%;
+            height: 2px;
+        }
+        .timeline::before {
+            left: 8px;
+        }
+        .timeline-item {
+            width: 100%;
+            text-align: left;
+            padding-left: 2.5rem;
+            padding-right: 0;
+        }
+        .timeline-item::before {
+            top: 1.25rem;
+            left: 1px;
+        }
+        .timeline-item:nth-child(even)::before {
+            left: 1px;
+        }
+        .timeline-item:nth-child(even) {
+            margin-left: 0rem;
+        }
+        
+      }
 
     /* 
     ##Device = Desktops
