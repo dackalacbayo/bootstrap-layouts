@@ -2230,8 +2230,8 @@ a .title-container span {
    @media (min-width: 1281px) {
     
     .cover-button{
-        font-size: 1.5vw;
-        letter-spacing: 0.15em;
+        font-size: 1vw;
+        letter-spacing: 0.20em;
     }
 
     .cover-button-container{
@@ -2264,10 +2264,10 @@ a .title-container span {
     /*COVER*/
     .font_cover_title
     {
-        font-size: 6vw;
+        font-size: 5vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 7vw;
+        line-height: 6vw;
         text-transform: capitalize !important;
         /* padding-bottom: 20px; */
     }
@@ -2324,8 +2324,8 @@ a .title-container span {
         font-weight: 300;
         font-size: 1.5vw !important;
         line-height: 3vw;
-        display: -ms-flexbox;
-        display: flex;
+        /* display: -ms-flexbox; */
+        /* display: flex; */
         -ms-flex-align: center;
         align-items: center;
         letter-spacing: 0.05em;
@@ -2687,7 +2687,7 @@ a .title-container span {
     }
 
     .cover-button-container{
-        justify-content: center;
+        justify-content: end;
         display: flex;
     }
 
@@ -4089,10 +4089,6 @@ a .title-container span {
     }
 
     /* banner */
-    /* .banner_div{
-        padding: 2vw;
-        height: 100vh !important;
-    } */
     .banner_title_big{
         font-family: Roboto;
         font-style: normal;
@@ -4116,8 +4112,8 @@ a .title-container span {
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
-        font-size: 1.5vw !important;
-        line-height: 2.5vw;
+        font-size: 2vw !important;
+        line-height: 3vw;   
         display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;
@@ -4366,7 +4362,7 @@ a .title-container span {
     .banner_subheader_ondarkerimage{
         letter-spacing: 0.05em;
         font-family: Roboto;
-        font-size: 3vw;
+        font-size: 2vw;
         color: white;
         font-weight: 100;
         max-width: 60%;
