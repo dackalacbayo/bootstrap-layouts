@@ -1,0 +1,19 @@
+h1 {
+  color: #000;
+  margin: 0;
+  padding: 0; }
+
+.bg-reeed {
+  background-color: #007bff; }
+
+#container {
+  width: 460px;
+  margin: 0px auto; }
+
+@media (min-width: 1200px) {
+  .col-xxl-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%; } }
+
+/*# sourceMappingURL=style.css.map */

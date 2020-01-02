@@ -1,0 +1,51 @@
+// @import "variables";
+
+$myColor: #000;
+$myString: " some text here ";
+$myFontSize: 13px;
+$myMargin: 0px auto;
+$myWidth: 460px;
+$bg-reeed: red;
+
+$dark-blue: #0a325c !default;
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    "blue":       $blue,
+    "indigo":     $indigo,
+    "dark-blue":  $dark-blue,
+  ),
+  $colors
+);
+
+$blue:          $blue !default;
+$indigo:        $indigo !default;
+$dark-blue:     $dark-blue !default;
+
+
+h1 {
+    color: $myColor;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-reeed{
+    background-color: $blue;
+}
+
+#container {
+    width: $myWidth;
+    margin: $myMargin;
+}
+
+@media (min-width: 1200px){
+    .col-xxl-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
