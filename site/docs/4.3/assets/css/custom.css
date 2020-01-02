@@ -2227,6 +2227,15 @@ a .title-container span {
     */
 
 @media (min-width: 1921px) {
+
+    .container-div{
+        max-width: 80%;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
     
     .cover-button{
         font-size: 1vw;
@@ -2266,7 +2275,7 @@ a .title-container span {
         font-size: 5vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 6vw;
+        line-height: 1.25em;
         text-transform: capitalize !important;
         /* padding-bottom: 20px; */
     }
@@ -2679,6 +2688,15 @@ a .title-container span {
     */
 
    @media (min-width: 1281px)  and (max-width: 1920px) {
+
+    .container-div{
+        max-width: 80%;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
     
     .cover-button{
         font-size: 1vw;
@@ -2718,7 +2736,7 @@ a .title-container span {
         font-size: 5vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 6vw;
+        line-height: 1.25em;
         text-transform: capitalize !important;
         /* padding-bottom: 20px; */
     }
@@ -3132,6 +3150,15 @@ a .title-container span {
   
   @media (min-width: 1025px) and (max-width: 1280px) {
 
+    .container-div{
+        max-width: 80%;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     .cover-button{
         font-size: 1.5vw;
         letter-spacing: 0.15em;
@@ -3168,7 +3195,7 @@ a .title-container span {
         font-size: 7vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 9vw;
+        line-height: 1.25em;
         text-transform: capitalize !important;
         /* padding-bottom: 20px; */
     }
@@ -3579,6 +3606,15 @@ a .title-container span {
   
   @media (min-width: 768px) and (max-width: 1024px) {
 
+    .container-div{
+        max-width: 80%;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     /*breadcrumbs*/
     .breadcrumb-sticky
     {
@@ -3615,7 +3651,7 @@ a .title-container span {
         font-size: 6vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 7vw;
+        line-height: 1.25em;
         text-transform: capitalize !important;
         /* padding-bottom: 20px; */
     }
@@ -4027,6 +4063,15 @@ a .title-container span {
   
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
+    .container-div{
+        max-width: 80%;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     /*breadcrumbs*/
     .breadcrumb-sticky
     {
@@ -4063,7 +4108,7 @@ a .title-container span {
         font-size: 6vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 8vw;
+        line-height: 1.25em;
         text-transform: capitalize !important;
         /* padding-bottom: 20px; */
     }
@@ -4487,6 +4532,15 @@ a .title-container span {
   
   @media (min-width: 481px) and (max-width: 767px) {
 
+    .container-div{
+        max-width: 80%;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     /*breadcrumbs*/
     .breadcrumb-sticky
     {
@@ -4524,7 +4578,7 @@ a .title-container span {
         font-size: 6vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 8vw;
+        line-height: 1.25em;
         text-transform: capitalize !important;
     }
 
@@ -5017,6 +5071,15 @@ a .title-container span {
   
   @media (min-width: 320px) and (max-width: 480px) {
 
+    .container-div{
+        max-width: 80%;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     /*breadcrumbs*/
     .breadcrumb-sticky
     {
@@ -5061,7 +5124,7 @@ a .title-container span {
         font-size: 9vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 6vh;
+        line-height: 1.25em;
         text-transform: capitalize !important;
         text-align: center;
     }

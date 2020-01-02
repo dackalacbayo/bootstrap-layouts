@@ -72,7 +72,6 @@ $colors: map-merge(
     "maroon":     $maroon,
     "dark-green": $dark-green,
     "navy-blue":  $navy-blue,
-    "gold":       $gold
   ),
   $colors
 );
@@ -188,7 +187,7 @@ $body-color:                $gray-900 !default;
 //
 // Style anchor elements.
 
-$link-color:                              theme-color("primary") !default;
+$link-color:                              theme-color($primary) !default;
 $link-decoration:                         none !default;
 $link-hover-color:                        darken($link-color, 15%) !default;
 $link-hover-decoration:                   underline !default;
@@ -212,7 +211,8 @@ $grid-breakpoints: (
   sm: 576px,
   md: 768px,
   lg: 992px,
-  xl: 1200px
+  xl: 1200px,
+  xxl: 1920px
 ) !default;
 
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
@@ -227,7 +227,8 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1140px
+  xl: 1140px,
+  xxl: 1920px
 ) !default;
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
