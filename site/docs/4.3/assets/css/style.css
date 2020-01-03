@@ -293,7 +293,11 @@
 
 /* 
     ##Device = TV
-    ##Screen = 1921px to higher resolution TV screens
+    ##Screen = 1921px to higher resolution TV screens (Landscape)
+*/
+/* 
+    ##Device = TV
+    ##Screen = 1921px to higher resolution TV screens (Portrait)
 */
 /* 
     ##Device = Desktops
@@ -314,6 +318,10 @@
 /* 
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
+*/
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
 */
 
 /*# sourceMappingURL=style.css.map */

@@ -397,12 +397,22 @@ $padding-large-1:   8vw;
     font-weight: 500;
     letter-spacing: $letter-spacing-normal; }
 
+
 /* 
     ##Device = TV
-    ##Screen = 1921px to higher resolution TV screens
+    ##Screen = 1921px to higher resolution TV screens (Landscape)
 */
 
-@media (min-width: 1921px) {
+@media (min-width: 1921px) and (orientation: landscape) {
+    
+}
+
+/* 
+    ##Device = TV
+    ##Screen = 1921px to higher resolution TV screens (Portrait)
+*/
+
+@media (min-width: 1921px) and (orientation: portrait) {
     
 }
 
@@ -448,6 +458,15 @@ $padding-large-1:   8vw;
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+    
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
     
 }
 
