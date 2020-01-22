@@ -64,6 +64,7 @@ $line-height-short:     2.5vh;
 $line-height-medium:    3.5vh;
 $line-height-tall:      4.5vh;
 $line-height-tall-2:    5.5vh;
+$line-height-cover-title: 13vh;
 
 $letter-spacing-normal:  0.1rem;
 $letter-spacing-loose:   0.2rem;
@@ -362,21 +363,24 @@ $padding-large-1:   8vw;
     margin-bottom: $margin-tight; }
 
 .title-overlay-primary-big {
-    font-family: $serif;
-    font-size: $lead-6;
+    font-family: $sans-serif;
+    font-size: $lead-9;
     font-weight: 500;
+    text-transform: uppercase;
     letter-spacing: $letter-spacing-normal; }
 
 .title-overlay-primary-medium {
-    font-family: $serif;
+    font-family: $sans-serif;
     font-size: $lead-1;
     font-weight: 500;
+    text-transform: uppercase;
     letter-spacing: $letter-spacing-normal; }
 
 .title-overlay-primary-small {
-    font-family: $serif;
+    font-family: $sans-serif;
     font-size: $small-1;
     font-weight: 500;
+    text-transform: uppercase;
     letter-spacing: $letter-spacing-normal; }
 
 .title-overlay-secondary-big {

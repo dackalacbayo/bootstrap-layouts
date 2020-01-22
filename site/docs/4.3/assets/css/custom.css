@@ -33,6 +33,10 @@ html {
     background-color: #00000061;
 }
 
+.bg-black-light {
+    background-color: #1E1E1E;
+}
+
 .object-contain{
     object-fit: contain;
     height: 500px;
@@ -41,6 +45,26 @@ html {
 .object-cover{
     object-fit: cover;
     height: 500px;
+}
+
+.px-vw-2 {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.px-vw-4 {
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.px-vw-6 {
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+
+.px-vw-8 {
+    padding-left: 8vw;
+    padding-right: 8vw;
 }
 
 .popup[data-position="top-left"] {
@@ -744,7 +768,7 @@ hr {
 }
 
 .navbar_top_menuitem{
-    color: white;
+    color: white !important;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -769,21 +793,21 @@ hr {
 }
 
 .navbar_left_sticky_menuitem{
-    color: white;
+    /* color: white; */
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 10px;
     letter-spacing: 0.15em;
 }
 
 .navbar_left_sticky_menuitem:hover{
-    color: #B69530;
+    color: #ffffff;
 }
 
 .navbar_left_sticky_menuitem.active{
-    color: #B69530;
+    color: #ffffff;
 }
 
 .sidebar-sticky{
@@ -900,14 +924,18 @@ hr {
     -moz-border-radius: 3px;
 }
 
+.lightbox .lb-image {
+    border: none !important;
+}
+
 .volume_tag_small{
     margin-bottom: 0px;
     color: white;
     width: 50%;
-    padding: 0.25rem;
+    padding: 0.50rem;
     text-align: center;
     font-family: Roboto;
-    font-size: 15px;
+    font-size: 13px;
     letter-spacing: 0.1em;
 }
 
@@ -1088,16 +1116,11 @@ hr {
 .img-desc{
     font-family: Roboto;
     font-style: italic;
-    font-weight: 300;
-    font-size: 14px;
-    /* line-height: 35px; */
+    font-size: 16px;
     text-align: center;
-    /* display: flex; */
-    /* align-items: center; */
     text-align: center;
     letter-spacing: 0.02em;
     width: 100%;
-    /* color: #FFFFFF; */
     word-break: break-word;
 }
 
@@ -1745,6 +1768,11 @@ hr {
     border-radius: 10rem;
 }
 
+.breadcrumb-item + .breadcrumb-item::before {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
 .breadcrumb-item-icon + .breadcrumb-item-icon {
     padding-left: 0.5rem;
 }
@@ -1755,6 +1783,8 @@ hr {
     display: inline-block;
     padding-right: 0.5rem;
     color: #6c757d;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 .breadcrumb-item:not(:first-child):not(:last-child) {
@@ -1891,8 +1921,8 @@ hr {
     padding: 0.25rem;
     text-align: center;
     font-family: Roboto;
-    font-size: 15px;
-    letter-spacing: 0.1em;
+    font-size: 20px;
+    /* letter-spacing: 0.1em; */
 }
 
 /* article */
@@ -2250,7 +2280,7 @@ a .title-container span {
     }
     
     .input-searchbar{
-        font-size: 1vw !important;
+        font-size: 1.5vw !important;
     }
   
     /*breadcrumbs*/
@@ -2273,11 +2303,11 @@ a .title-container span {
     /*COVER*/
     .font_cover_title
     {
-        font-size: 5vw;
+        font-size: 6vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 1.25em;
-        text-transform: capitalize !important;
+        line-height: 1em;
+        text-transform: uppercase !important;
         /* padding-bottom: 20px; */
     }
 
@@ -2425,8 +2455,8 @@ a .title-container span {
 
     .volumetag_big_numberonly{
         font-family: Roboto;
-        font-size: 2vw;
-        line-height: 1vw;
+        font-size: 3vw;
+        line-height: 2vw;
         letter-spacing: 0.1em;
         color: #FFFFFF;
         text-transform: uppercase;
@@ -2450,13 +2480,13 @@ a .title-container span {
 
     .banner_header_ondarkerimage{
         display: inline;
-        line-height: 20vw;
+        line-height: 15vw;
         font-family: Frank Ruhl Libre;
         font-weight: 500;
         font-size: 11vw;
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 0.5rem;
+        /* padding: 0.5rem; */
     }
 
     /* video */
@@ -2557,7 +2587,7 @@ a .title-container span {
 
     .img-middle-right-overlay{
         position: absolute;
-        top: 25%;
+        top: 70%;
         right: 0;
         bottom: 0;
         width: 100%;
@@ -2704,7 +2734,7 @@ a .title-container span {
     }
     
     .input-searchbar{
-        font-size: 1vw !important;
+        font-size: 1.5vw !important;
     }
   
     /*breadcrumbs*/
@@ -2727,11 +2757,11 @@ a .title-container span {
     /*COVER*/
     .font_cover_title
     {
-        font-size: 5vw;
+        font-size: 6vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 1.25em;
-        text-transform: capitalize !important;
+        line-height: 1em;
+        text-transform: uppercase !important;
         /* padding-bottom: 20px; */
     }
 
@@ -2786,7 +2816,7 @@ a .title-container span {
         font-style: normal;
         font-weight: 300;
         font-size: 1.5vw !important;
-        line-height: 3vw;
+        line-height: 2.5vw;
         /* display: -ms-flexbox; */
         /* display: flex; */
         -ms-flex-align: center;
@@ -2904,13 +2934,13 @@ a .title-container span {
 
     .banner_header_ondarkerimage{
         display: inline;
-        line-height: 20vw;
+        line-height: 15vw;
         font-family: Frank Ruhl Libre;
         font-weight: 500;
         font-size: 11vw;
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 0.5rem;
+        /* padding: 0.5rem; */
     }
 
     /* video */
@@ -3011,7 +3041,7 @@ a .title-container span {
 
     .img-middle-right-overlay{
         position: absolute;
-        top: 25%;
+        top: 70%;
         right: 0;
         bottom: 0;
         width: 100%;
@@ -3159,7 +3189,7 @@ a .title-container span {
     }
     
     .input-searchbar{
-        font-size: 1vw !important;
+        font-size: 1.5vw !important;
     }
   
     /*breadcrumbs*/
@@ -3182,11 +3212,11 @@ a .title-container span {
     /*COVER*/
     .font_cover_title
     {
-        font-size: 5vw;
+        font-size: 6vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 1.25em;
-        text-transform: capitalize !important;
+        line-height: 1em;
+        text-transform: uppercase !important;
         /* padding-bottom: 20px; */
     }
 
@@ -3241,7 +3271,7 @@ a .title-container span {
         font-style: normal;
         font-weight: 300;
         font-size: 1.5vw !important;
-        line-height: 3vw;
+        line-height: 2.5vw;
         /* display: -ms-flexbox; */
         /* display: flex; */
         -ms-flex-align: center;
@@ -3334,8 +3364,8 @@ a .title-container span {
 
     .volumetag_big_numberonly{
         font-family: Roboto;
-        font-size: 2vw;
-        line-height: 1vw;
+        font-size: 3vw;
+        line-height: 2vw;
         letter-spacing: 0.1em;
         color: #FFFFFF;
         text-transform: uppercase;
@@ -3359,13 +3389,13 @@ a .title-container span {
 
     .banner_header_ondarkerimage{
         display: inline;
-        line-height: 20vw;
+        line-height: 15vw;
         font-family: Frank Ruhl Libre;
         font-weight: 500;
         font-size: 11vw;
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 0.5rem;
+        /* padding: 0.5rem; */
     }
 
     /* video */
@@ -3466,7 +3496,7 @@ a .title-container span {
 
     .img-middle-right-overlay{
         position: absolute;
-        top: 25%;
+        top: 35%;
         right: 0;
         bottom: 0;
         width: 100%;
@@ -3484,11 +3514,11 @@ a .title-container span {
     /* fullwidth with textoverlay */
     .banner_header_onimage_right{
         background-color: #0000009e;
-        display: inline;
-        line-height: 4.5rem;
+        /* display: inline; */
+        line-height: 1.7em;
         font-family: Frank Ruhl Libre;
         font-weight: 500;
-        font-size: 42px;
+        font-size: 58px;
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         padding: 0.5rem;
@@ -3501,7 +3531,7 @@ a .title-container span {
         height: 100%;
         -webkit-transform: translate(-50%,-50%);
         transform: translate(-50%,-50%);
-        width: 160px !important;
+        width: 260px !important;
         -o-object-fit: cover;
         object-fit: cover;
         padding-right: 1rem;
@@ -3613,7 +3643,7 @@ a .title-container span {
     }
 
     .input-searchbar{
-        font-size: 1vw !important;
+        font-size: 1.5vw !important;
     }
     
     /*breadcrumbs*/
@@ -3635,11 +3665,11 @@ a .title-container span {
     /*COVER*/
     .font_cover_title
     {
-        font-size: 7vw;
+        font-size: 8vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 1.25em;
-        text-transform: capitalize !important;
+        line-height: 1em;
+        text-transform: uppercase !important;
         /* padding-bottom: 20px; */
     }
 
@@ -3692,7 +3722,7 @@ a .title-container span {
         font-style: normal;
         font-weight: 300;
         font-size: 1.5vw !important;
-        line-height: 3vw;
+        line-height: 2.5vw;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;
@@ -3785,8 +3815,8 @@ a .title-container span {
 
     .volumetag_big_numberonly{
         font-family: Roboto;
-        font-size: 4vw;
-        line-height: 1vw;
+        font-size: 5vw;
+        line-height: 2vw;
         letter-spacing: 0.1em;
         color: #FFFFFF;
         text-transform: uppercase;
@@ -3810,13 +3840,13 @@ a .title-container span {
 
     .banner_header_ondarkerimage{
         display: inline;
-        line-height: 20vw;
+        line-height: 15vw;
         font-family: Frank Ruhl Libre;
         font-weight: 500;
         font-size: 11vw;
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 0.5rem;
+        /* padding: 0.5rem; */
     }
 
     /* video */
@@ -3917,7 +3947,7 @@ a .title-container span {
 
     .img-middle-right-overlay{
         position: absolute;
-        top: 25%;
+        top: 70%;
         right: 0;
         bottom: 0;
         width: 100%;
@@ -4072,7 +4102,7 @@ a .title-container span {
     }
 
     .input-searchbar{
-        font-size: 1vw !important;
+        font-size: 1.5vw !important;
     }
 
     .landing_logo{
@@ -4085,11 +4115,11 @@ a .title-container span {
     /*COVER*/
     .font_cover_title
     {
-        font-size: 6vw;
+        font-size: 7vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 1.25em;
-        text-transform: capitalize !important;
+        line-height: 1em;
+        text-transform: uppercase !important;
         /* padding-bottom: 20px; */
     }
 
@@ -4143,7 +4173,7 @@ a .title-container span {
         font-style: normal;
         font-weight: 300;
         font-size: 1.5vw !important;
-        line-height: 3vw;
+        line-height: 2.5vw;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;
@@ -4236,8 +4266,8 @@ a .title-container span {
 
     .volumetag_big_numberonly{
         font-family: Roboto;
-        font-size: 4vw;
-        line-height: 1vw;
+        font-size: 5vw;
+        line-height: 2vw;
         letter-spacing: 0.1em;
         color: #FFFFFF;
         text-transform: uppercase;
@@ -4261,13 +4291,13 @@ a .title-container span {
 
     .banner_header_ondarkerimage{
         display: inline;
-        line-height: 20vw;
+        line-height: 15vw;
         font-family: Frank Ruhl Libre;
         font-weight: 500;
         font-size: 11vw;
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 0.5rem;
+        /* padding: 0.5rem; */
     }
 
     /* video */
@@ -4374,7 +4404,7 @@ a .title-container span {
 
     .img-middle-right-overlay{
         position: absolute;
-        top: 25%;
+        top: 45%;
         right: 0;
         bottom: 0;
         width: 100%;
@@ -4529,7 +4559,7 @@ a .title-container span {
     }
 
     .input-searchbar{
-        font-size: 1vw !important;
+        font-size: 1.5vw !important;
     }
     
     .landing_logo{
@@ -4542,11 +4572,11 @@ a .title-container span {
     /*COVER*/
     .font_cover_title
     {
-        font-size: 6vw;
+        font-size: 7vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 1.25em;
-        text-transform: capitalize !important;
+        line-height: 1em;
+        text-transform: uppercase !important;
         /* padding-bottom: 20px; */
     }
 
@@ -4573,13 +4603,12 @@ a .title-container span {
 
     /* BANNER */
     /* page banner + image */
-    .banner_div{
+    /* .banner_div{
         background-size: cover;
         background-repeat: no-repeat;
         background-position-x: center;
         padding: 11vw;
-        /* height: 100vh !important; */
-    }
+    } */
 
     /* BANNER */
     /* page banner + image */
@@ -4588,6 +4617,7 @@ a .title-container span {
         /* height: 100vh !important; */
         background-size: cover;
         background-repeat: no-repeat;
+        background-position-x: center;
     }
 
     /* cover, landing */
@@ -4611,7 +4641,7 @@ a .title-container span {
         font-style: normal;
         font-weight: 300;
         font-size: 1.5vw !important;
-        line-height: 3vw;
+        line-height: 2.5vw;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;
@@ -4705,8 +4735,8 @@ a .title-container span {
 
     .volumetag_big_numberonly{
         font-family: Roboto;
-        font-size: 2vw;
-        line-height: 0vw;
+        font-size: 3vw;
+        line-height: 1vw;
         letter-spacing: 0.1em;
         color: #FFFFFF;
         text-transform: uppercase;
@@ -4730,13 +4760,13 @@ a .title-container span {
 
     .banner_header_ondarkerimage{
         display: inline;
-        line-height: 20vw;
+        line-height: 15vw;
         font-family: Frank Ruhl Libre;
         font-weight: 500;
         font-size: 11vw;
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        padding: 0.5rem;
+        /* padding: 0.5rem; */
     }
 
     /* video */
@@ -4837,7 +4867,7 @@ a .title-container span {
 
     .img-middle-right-overlay{
         position: absolute;
-        top: 25%;
+        top: 70%;
         right: 0;
         bottom: 0;
         width: 100%;
@@ -5001,7 +5031,7 @@ a .title-container span {
     }
 
     .input-searchbar{
-        font-size: 1vw !important;
+        font-size: 1.5vw !important;
     }
     
     .landing_logo{
@@ -5014,11 +5044,11 @@ a .title-container span {
     /*COVER*/
     .font_cover_title
     {
-        font-size: 9vw;
+        font-size: 10vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 9vh;
-        text-transform: capitalize !important;
+        line-height: 1em;
+        text-transform: uppercase !important;
         text-align: center;
     }
 
@@ -5087,7 +5117,7 @@ a .title-container span {
         font-style: normal;
         font-weight: 300;
         font-size: 4vw !important;
-        line-height: 5vw;
+        line-height: 4.5vw;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;
@@ -5251,8 +5281,8 @@ a .title-container span {
 
     .volumetag_big_numberonly{
         font-family: Roboto;
-        font-size: 5vw;
-        line-height: 0px;
+        font-size: 6vw;
+        line-height: 1px;
         letter-spacing: 0.1em;
         color: #FFFFFF;
         text-transform: uppercase;
@@ -5276,7 +5306,7 @@ a .title-container span {
 
     .banner_header_ondarkerimage{
         display: inline;
-        line-height: 23vw;
+        line-height: 18vw;
         font-family: Frank Ruhl Libre;
         font-weight: 500;
         font-size: 15vw !important;
@@ -5399,6 +5429,7 @@ a .title-container span {
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         line-height: 25px;
+        font-size: 1em;
     }
 
     /* fullwidth with textoverlay */
@@ -5557,7 +5588,7 @@ a .title-container span {
     }
 
     .input-searchbar{
-        font-size: 1vw !important;
+        font-size: 1.5vw !important;
     }
     
     .landing_logo{
@@ -5570,11 +5601,11 @@ a .title-container span {
     /*COVER*/
     .font_cover_title
     {
-        font-size: 9vw;
+        font-size: 10vw;
         font-family: Frank Ruhl Libre;
         color: white;
-        line-height: 1.25em;
-        text-transform: capitalize !important;
+        line-height: 1em;
+        text-transform: uppercase !important;
         text-align: center;
     }
 
@@ -5643,7 +5674,7 @@ a .title-container span {
         font-style: normal;
         font-weight: 300;
         font-size: 4vw !important;
-        line-height: 5vw;
+        line-height: 4.5vw;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;
@@ -5807,8 +5838,8 @@ a .title-container span {
 
     .volumetag_big_numberonly{
         font-family: Roboto;
-        font-size: 5vw;
-        line-height: 0px;
+        font-size: 6vw;
+        line-height: 1px;
         letter-spacing: 0.1em;
         color: #FFFFFF;
         text-transform: uppercase;
