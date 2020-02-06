@@ -25,6 +25,12 @@
 .line-color-gold {
   border-color: #b69530; }
 
+.border-bottom-gold-sm {
+  border-bottom: 3px solid #b69530; }
+
+.border-bottom-gold-lg {
+  border-bottom: 5px solid #b69530; }
+
 .full-screen-width {
   width: 100vw; }
 
@@ -293,6 +299,24 @@
   font-size: 0.87891rem;
   font-weight: 500;
   letter-spacing: 0.1rem; }
+
+.navbar_menu_item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.17188rem;
+  letter-spacing: 0.2rem; }
+
+.navbar_menu_item.active {
+  color: #b69530 !important; }
+
+.navbar_menu_container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%; }
 
 /* 
     ##Device = TV

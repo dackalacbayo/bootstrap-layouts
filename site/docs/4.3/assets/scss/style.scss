@@ -110,6 +110,14 @@ $padding-large-1:   8vw;
 .line-color-gold {
     border-color: $gold; }
 
+
+// border bottom
+.border-bottom-gold-sm {
+    border-bottom: 3px solid $gold; }
+
+.border-bottom-gold-lg {
+    border-bottom: 5px solid $gold; }
+
 // Screen width and height
 
 .full-screen-width {
@@ -401,6 +409,25 @@ $padding-large-1:   8vw;
     font-weight: 500;
     letter-spacing: $letter-spacing-normal; }
 
+// classes from custom.css
+
+.navbar_menu_item {
+    font-family: $sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: $lead-2;
+    letter-spacing: $letter-spacing-loose; }
+
+.navbar_menu_item.active {
+    color: $gold !important; }
+
+.navbar_menu_container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%; }
 
 /* 
     ##Device = TV
