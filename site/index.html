@@ -8,21 +8,32 @@ layout: home
     <div class="mb-5">
         {% include components/navbar/navbar.html %}
     </div>
+
+    <h3 id="heading-classes" class="text-center">Nav Bar 2</h3>
+    <div class="mb-5">
+        {% include components/navbar/navbar-2.html %}
+    </div>
+
       {% include components/navbar/navbar-mobile.html %}
     
     <!-- Sections -->
-    <h3 id="heading-classes" class="text-center">Sections</h3>
-    <div class="mb-5">{% include design/section/section-with-sidebarmenu.html %}</div>
-    {% include design/section/section-with-cards.html %}
+    <h3 id="heading-classes" class="text-center mt-5">Sections</h3>
+    {% include blocks/section/section-with-sidebarmenu.html %}
+    <h3 id="heading-classes" class="text-center mt-5">Section (Featured)</h3>
+    {% include blocks/section/section-with-image-masonry.html %}
+    <h3 id="heading-classes" class="text-center mt-5">Section (On this day)</h3>
+    {% include blocks/section/section-with-cards.html %}
 
     <!-- Covers -->
-    <h3 id="heading-classes" class="text-center">Cover with scroll down button</h3>
+    <h3 id="heading-classes" class="text-center mt-5">Cover with scroll down button</h3>
     <div class="mb-5">{% include blocks/cover/cover-with-scroll-button.html %}</div>
-    <h3 id="heading-classes" class="text-center">Cover with search bar</h3>
+    <h3 id="heading-classes" class="text-center mt-5">Cover with search bar</h3>
     <div class="mb-5">{% include blocks/cover/cover-with-searchbar.html %}</div>
+    <h3 id="heading-classes" class="text-center mt-5">Cover without search bar</h3>
     {% include blocks/cover/cover-without-searchbar.html %}
+    <h3 id="heading-classes" class="text-center mt-5">Cover with dark bg and without search bar</h3>
     {% include blocks/cover/cover-darkbg-without-searchbar.html %}
-    <h3 id="heading-classes" class="text-center">Cover without search bar</h3>
+    <h3 id="heading-classes" class="text-center mt-5">Cover with logo</h3>
     {% include blocks/cover/cover-with-logo.html %}
 
     <!-- Cards -->
